@@ -6,7 +6,7 @@ app.controller("Inventory", function($scope){
             "expansion": "Innistrad Crimson Vow",
             "released" : "11.2021",
             "cards" : [
-                { "name": "Adamant Will", "collector": "001/277", "rarity": "C", "color": "white", "foil": true, "type": "Instant", "url": "b/d/bd091f3e-5fcc-4d12-b0c3-3b6340ab01d8" },
+                { "name": "Adamant Will", "collector": "001/277", "rarity": "C", "color": "white", "type": "Instant", "url": "b/d/bd091f3e-5fcc-4d12-b0c3-3b6340ab01d8" },
                 { "name": "Angelic Quartermaster", "collector": "002/277", "rarity": "U", "color": "white", "type": "Creature — Angel Soldier", "url": "4/1/41d81b88-c19b-4148-89ba-ae8fb53843e1" },
                 { "name": "Dawnhart Geist", "collector": "008/277", "rarity": "U", "color": "white", "type": "Creature — Spirit Warlock", "url": "a/1/a1d27617-2d3d-44a1-b93f-0694253b6774" },
                 { "name": "Drogskol Infantry", "collector": "010/277", "rarity": "C", "color": "white", "type": "Creature — Spirit Soldier", "url": "f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d" },
@@ -17,7 +17,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Kindly Ancestor", "collector": "022/277", "rarity": "C", "color": "white", "type": "Creature — Spirit", "url": "2/5/25193485-7f41-4b05-9a69-4c112679f97c" },
                 { "name": "Nebelgast Beguiler", "collector": "025/277", "rarity": "C", "color": "white", "type": "Creature — Spirit", "url": "0/4/04c68dbd-e61b-49a7-aa17-da6b26c9fd29" },
                 { "name": "Nurturing Presence", "collector": "026/277", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "3/5/35e109ea-8b86-4432-b15e-5a6201caf2aa" },
-                { "name": "Radiant Grace", "collector": "031/277", "rarity": "U", "color": "white", "foil": true, "type": "Enchantment — Aura", "url": "4/a/4a708243-42a1-4fa7-8b0b-9d5163da84bb" },
+                { "name": "Radiant Grace", "collector": "031/277", "rarity": "U", "color": "white", "type": "Enchantment — Aura", "url": "4/a/4a708243-42a1-4fa7-8b0b-9d5163da84bb" },
                 { "name": "Sanctify", "collector": "033/277", "rarity": "C", "color": "white", "type": "Sorcery", "url": "8/8/880e071a-6d6c-41c4-b2eb-c9e6626d0c7f" },
                 { "name": "Savior of Ollenbock", "collector": "034/277", "rarity": "M", "color": "white", "type": "Creature — Human Soldier", "url": "b/a/ba77e83b-1846-4c42-bea0-2e304429fbe0" },
                 { "name": "Sigarda's Imprisonment", "collector": "035/277", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "1/1/118995a6-8471-47ac-9404-700ce7fc46f6" },
@@ -95,7 +95,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Dawnhart Disciple", "collector": "196/277", "rarity": "C", "color": "green", "type": "Creature — Human Warlock", "url": "c/4/c4bb669c-155e-4002-ba55-7e901760c0e8" },
                 { "name": "Flourishing Hunter", "collector": "199/277", "rarity": "C", "color": "green", "type": "Creature — wolf Spirit", "url": "2/a/2abc54df-773d-4f46-b241-e1f42af8ab95" },
                 { "name": "Massive Might", "collector": "208/277", "rarity": "C", "color": "green", "type": "Instant", "url": "3/a/3a5cd50b-4825-4d85-b0f9-e2a51d2a7df1"},
-                { "name": "Mulch", "collector": "210/277", "rarity": "C", "color": "green", "foil": true, "type": "Sorcery", "url": "9/5/950dd57e-b2e1-4a27-a212-86fbfdbf914d" },
+                { "name": "Mulch", "collector": "210/277", "rarity": "C", "color": "green", "type": "Sorcery", "url": "9/5/950dd57e-b2e1-4a27-a212-86fbfdbf914d" },
                 { "name": "Nature's Embrace", "collector": "211/277", "rarity": "C", "color": "green", "type": "Enchantment — Aura", "url": "3/9/39d757af-86fd-4f99-a09a-0f3898ed95f6" },
                 { "name": "Oaksahde Stalker", "collector": "212/277", "rarity": "U", "color": "green", "type": "Creature — Human Ranger Werewolf", "url": "8/b/8bcaa944-4e45-457c-be9c-07377b6ed08b" },
                 { "name": "Reclusive Taxidermist", "collector": "214/277", "rarity": "U", "color": "green", "type": "Creature — Human Druid", "url": "1/0/10edf37a-ee35-491d-b83a-39035f7df65a" },
@@ -108,7 +108,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Wolfkin Outcast", "collector": "229/277", "rarity": "U", "color": "green", "type": "Creature — Human Werewolf", "url": "7/a/7a743426-6333-4ca6-9207-163b325ba435" },
                 
                 { "name": "Bloodtithe Harvester", "collector": "232/277", "rarity": "U", "color": "multi", "type": "Creature — Vampire", "url": "f/0/f0192cf7-3391-4720-b9c8-72dec5dde01e" },
-                { "name": "Odric, Blood-Cursed", "collector": "243/277", "rarity": "R", "color": "multi", "foil": true, "type": "Legendary Creature — Vampire Soldier", "url": "8/1/81a79f5f-a65a-4b43-b58c-cdfa09cc7855" },
+                { "name": "Odric, Blood-Cursed", "collector": "243/277", "rarity": "R", "color": "multi", "type": "Legendary Creature — Vampire Soldier", "url": "8/1/81a79f5f-a65a-4b43-b58c-cdfa09cc7855" },
                 { "name": "Wandering Mind", "collector": "251/277", "rarity": "U", "color": "multi", "type": "Creature — Horror", "url": "4/b/4b9a1096-6313-4245-be18-1588c219b842"},
                 { "name": "Eruth, Tormented Prophet", "collector": "237/277", "rarity": "R", "color": "multi", "type": "", "url": "9/f/9f764077-df2d-4ac7-b507-2c8e08386d49"},
                 
@@ -123,14 +123,15 @@ app.controller("Inventory", function($scope){
                 { "name": "Swamp", "collector": "273/277", "rarity": "L", "type": "Basic Land — Swamp", "url": "2/e/2e55a405-bf5b-4158-ba9a-239627ac9701"},
                 { "name": "Mountain", "collector": "274/277", "rarity": "L", "type": "Basic Land — Mountain", "url": "8/a/8a4448b6-0dbe-427c-b145-8ac915fc0dfc"},
                 { "name": "Mountain", "collector": "275/277", "rarity": "L", "type": "Basic Land — Mountain", "url": "a/6/a6f72e53-52bb-4cf4-9b8b-34ed0c5f7c3c"},
-                { "name": "Plains", "collector": "/277", "rarity": "L", "type": "Basic Land — Plains", "url": "2/0/20ddb0be-d62d-46fa-b753-36dfab935e8a"},
-                { "name": "Island", "collector": "/277", "rarity": "L", "type": "Basic Land — Island", "url": "f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd"},
-                { "name": "Stormcarved Coast", "collector": "284/277", "rarity": "L", "type": "Land", "url": "2/9/299f1dee-b3d7-472b-aa0b-2f9b46a96da5"},
-
-                { "name": "Thalia, Guardian of Thraben", "collector": "318", "rarity": "R", "type": "Legendary Creature — Human Soldier", "url": "e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e" },
+                { "name": "Stormcarved Coast", "collector": "284", "rarity": "L", "type": "Land", "url": "3/e/3e589848-2c25-43e8-a940-7769f7936815"},
+                { "name": "Plains", "collector": "398", "rarity": "L", "type": "Basic Land — Plains", "url": "2/0/20ddb0be-d62d-46fa-b753-36dfab935e8a"},
+                { "name": "Island", "collector": "399", "rarity": "L", "type": "Basic Land — Island", "url": "f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd"},
+                
+                { "name": "Bloodcrazed Socialite", "collector": "288", "rarity": "C", "type": "Creature — Vampire", "url": "9/d/9df22639-7e98-43a1-801e-cbf882558c53"},
+                { "name": "Blood Petal Celebrant", "collector": "303", "rarity": "C", "type": "Creature — Vampire", "url": "4/5/4592609d-48f5-4762-b95c-b2eaa2ea4d51"},
                 { "name": "Voldaren Epicure", "collector": "308", "rarity": "C", "type": "Creature — Vampire", "url": "f/e/feda6bb3-ee22-489c-bcfd-52ef04841024"},
                 { "name": "Falkenrath Celebrants", "collector": "306", "rarity": "C", "type": "Creature — Vampire", "url": "6/a/6aacc8fa-9440-494b-a3d9-7b1678c5a9f6"},
-                { "name": "Bloodcrazed Socialite", "collector": "288", "rarity": "C", "type": "Creature — Vampire", "url": "9/d/9df22639-7e98-43a1-801e-cbf882558c53"},
+                { "name": "Thalia, Guardian of Thraben", "collector": "318", "rarity": "R", "type": "Legendary Creature — Human Soldier", "url": "e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e" }
             ]
         }
     ];
