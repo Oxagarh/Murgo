@@ -10,11 +10,13 @@ app.controller("Inventory", function($scope){
                 { "name": "Adamant Will", "collector": "001/277", "rarity": "C", "color": "white", "type": "Instant", "url": "b/d/bd091f3e-5fcc-4d12-b0c3-3b6340ab01d8" },
                 { "name": "Angelic Quartermaster", "collector": "002/277", "rarity": "U", "color": "white", "type": "Creature — Angel Soldier", "url": "4/1/41d81b88-c19b-4148-89ba-ae8fb53843e1" },
                 { "name": "Cemetery Protector", "collector": "006/277", "rarity": "M", "color": "white", "type": "Creature — Human Soldier", "url": "c/0/c00731eb-69fe-42f3-9919-66a4cdec00f7" },
+                { "name": "Circle of Confinement", "collector": "007/277", "rarity": "U", "color": "white", "type": "Enchantment", "url": "1/3/13031fb6-9d5a-4add-9a86-28b2a9373fd2" },
                 { "name": "Dawnhart Geist", "collector": "008/277", "rarity": "U", "color": "white", "type": "Creature — Spirit Warlock", "url": "a/1/a1d27617-2d3d-44a1-b93f-0694253b6774" },
                 { "name": "Drogskol Infantry", "collector": "010/277", "rarity": "C", "color": "white", "type": "Creature — Spirit Soldier", "url": "f/8/f88e269e-ff3d-4775-8520-5b7a6dddf23d",
                 "transform": { "name": "Drogskol Armaments", "type": "Enchantment — Aura" }
                 },
                 { "name": "Estwald Shieldbasher", "collector": "011/277", "rarity": "C", "color": "white", "type": "Creature — Human Soldier", "url": "6/1/61c7d889-8cc0-4e80-b6d5-d41961820224" },
+                { "name": "Fierce Retribuition", "collector": "013/277", "rarity": "C", "color": "white", "type": "Instant", "url": "9/5/9597b163-5c6b-4f64-b1f1-5f1fa2e23e5d" },
                 { "name": "Fleeting Spirit", "collector": "014/277", "rarity": "U", "color": "white", "type": "Creature — Spirit", "url": "d/b/db9d80f7-9742-4437-a9f4-6717a678f935" },
                 { "name": "Gryff Rider", "collector": "015/277", "rarity": "C", "color": "white", "type": "Creature — Human Knight", "url": "5/3/5317077b-370e-41a9-9162-c713362fd7f4" },
                 { "name": "Heron of Hope", "collector": "018/277", "rarity": "C", "color": "white", "type": "Creature — Bird", "url": "f/a/fa7e6933-5c64-4fcd-bb7f-740767a149cb" },
@@ -22,6 +24,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Kindly Ancestor", "collector": "022/277", "rarity": "C", "color": "white", "type": "Creature — Spirit", "url": "2/5/25193485-7f41-4b05-9a69-4c112679f97c",
                 "transform": { "name": "Ancestor's Embrace", "type": "Enchantment — Aura" }
                 },
+                { "name": "Lantern Flare", "collector": "023/277", "rarity": "R", "color": "white", "type": "Instant", "url": "d/f/dfd59300-7b5c-4263-a7fd-775c9fcb05ad" },
                 { "name": "Militia Rallier", "collector": "024/277", "rarity": "C", "color": "white", "type": "Creature — Human Soldier", "url": "5/1/51b3ff40-3185-4369-985e-17613bb6ad22" },
                 { "name": "Nebelgast Beguiler", "collector": "025/277", "rarity": "C", "color": "white", "type": "Creature — Spirit", "url": "0/4/04c68dbd-e61b-49a7-aa17-da6b26c9fd29" },
                 { "name": "Nurturing Presence", "collector": "026/277", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "3/5/35e109ea-8b86-4432-b15e-5a6201caf2aa" },
@@ -36,12 +39,14 @@ app.controller("Inventory", function($scope){
                 { "name": "Sigarda's Imprisonment", "collector": "035/277", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "1/1/118995a6-8471-47ac-9404-700ce7fc46f6" },
                 { "name": "Traveling Minister", "collector": "039/277", "rarity": "C", "color": "white", "type": "Creature — Human Cleric", "url": "e/6/e672a05c-5f1a-4aa6-9398-e33df01c7c96" },
                 { "name": "Twinblade Gueist", "collector": "040/277", "rarity": "U", "color": "white", "type": "Creature — Spirit Warrior", "url": "f/1/f1deb24b-3d8f-4251-a901-85eeb891f26f",
-                "transform": { "name": "Twinblade Invocation", "type": "Enchantment — Aura" } },
+                "transform": { "name": "Twinblade Invocation", "type": "Enchantment — Aura" }
+                },
+                { "name": "Unholy Officiant", "collector": "041/277", "rarity": "C", "color": "white", "type": "Creature — Vampire Cleric", "url": "8/a/8a4c04a4-e68b-4d3d-89c8-29cdaaac36b2" },
                 { "name": "Vampire Slayer", "collector": "043/277", "rarity": "C", "color": "white", "type": "Creature — Human Soldier", "url": "a/8/a8f6f03b-5a4e-4532-9c9e-24c75df2769f" },
                 { "name": "Wedding Announcement", "collector": "045/277", "rarity": "R", "color": "white", "type": "Enchantment", "url": "2/c/2c3ddb1f-a1de-4fea-9042-5e9caa16ceb2",
                 "transform": { "name": "Wedding Festivity", "type": "Enchantment" }
                 },
-                
+
                 { "name": "Alchemist's Retrieval", "collector": "047/277", "rarity": "C", "color": "blue", "type": "Instant", "url": "e/d/edbf9d4f-6027-40b8-81c1-7f001a9119dd" },
                 { "name": "Binding Geist", "collector": "048/27", "rarity": "C", "color": "blue", "type": "Creature — Spirit", "url": "7/3/730e4629-dc54-415d-9493-88885788ca19",
                 "transform": { "name": "Spectral Binding", "type": "Enchantment — Aura" }
@@ -51,11 +56,13 @@ app.controller("Inventory", function($scope){
                 },
                 { "name": "Cemetery Illuminator", "collector": "050/277", "rarity": "M", "color": "blue", "type": "Creature — Spirit", "url": "5/f/5f619464-dc3b-4265-b4e4-2578034bf5bf" },
                 { "name": "Chill of the Grave", "collector": "051/277", "rarity": "C", "color": "blue", "type": "Instant", "url": "6/0/60222e91-a688-4113-a8c2-ab08f52bb6e1" },
+                { "name": "Cradle of Safety", "collector": "054/277", "rarity": "C", "color": "blue", "type": "Enchantment — Aura", "url": "4/2/42cbad81-152a-435f-9289-f4b6483a059b" },
                 { "name": "Cruel Witness", "collector": "055/277", "rarity": "C", "color": "blue", "type": "Creature — Bird Horror", "url": "5/b/5bf2c686-efb0-46c7-b34e-c77987914b96" },
                 { "name": "Dreadlight Monstrosity", "collector": "057/277", "rarity": "C", "color": "blue", "type": "Creature — Crab Horror", "url": "1/6/16345278-7565-406b-a958-835081082bc8" },
                 { "name": "Fear of Death", "collector": "059/277", "rarity": "C", "color": "blue", "type": "Enchantment — Aura", "url": "b/8/b81704d2-d555-4894-b36c-6b65d1ebe681" },
                 { "name": "Hullbraker Horror", "collector": "063/277", "rarity": "R", "color": "blue", "type": "Creature — Kraken Horror", "url": "b/f/bf786c50-1ba1-4f81-a800-bc98189040dd" },
                 { "name": "Geralf, Visionary Stitcher", "collector": "061/277", "rarity": "R", "color": "blue", "type": "Legendary Creature — Human Wizard", "url": "6/9/69890076-9cc4-434f-8618-63b00fdf4515" },
+                { "name": "Inspired Idea", "collector": "064/277", "rarity": "R", "color": "blue", "type": "Sorcery", "url": "2/f/2fe4ee8e-579d-4bfa-8c19-bfdb1c0b7177" },
                 { "name": "Lantern Bearer", "collector": "066/277", "rarity": "C", "color": "blue", "type": "Creature — Spirit", "url": "a/4/a4d3652a-6774-4b16-aa8b-cb11d72ec7aa",
                 "transform": { "name": "Lanterns' Lift", "type": "Enchantment — Aura" }
                 },
@@ -66,6 +73,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Repository Skaab", "collector": "073/277", "rarity": "C", "color": "blue", "type": "Creature — Zombie", "url": "7/c/7cc22c2a-535a-46b5-817c-da5850abd669" },
                 { "name": "Scattered Thoughts", "collector": "074/277", "rarity": "C", "color": "blue", "type": "Instant", "url": "d/c/dc5c6675-6e0f-427d-9399-a6e7fc6215f1" },
                 { "name": "Screaming Swarn", "collector": "075/277", "rarity": "U", "color": "blue", "type": "Creature — Bird Horror", "url": "3/c/3c9faf98-11bb-4407-aec9-d0d43dbaba34" },
+                { "name": "Selhoff Entomber", "collector": "076/277", "rarity": "C", "color": "blue", "type": "Creature — Zombie", "url": "f/8/f8805db2-5a26-43cf-9b74-f882c283e5e4" },
                 { "name": "Serpentine Ambush", "collector": "077/277", "rarity": "C", "color": "blue", "type": "Instant", "url": "b/8/b8214b1c-29f8-4986-89ac-2d7fc929edf3" },
                 { "name": "Skywarp Skaab", "collector": "078/277", "rarity": "C", "color": "blue", "type": "Creature — Zombie Drake", "url": "7/3/73168804-3c22-4fcb-907a-2f08999c0cea" },
                 { "name": "Soulcipher Board", "collector": "079/277", "rarity": "U", "color": "blue", "type": "Artifact", "url": "3/c/3c0fae23-1278-499f-9df7-4a29691726b1" },
@@ -103,6 +111,9 @@ app.controller("Inventory", function($scope){
                 { "name": "Ragged Recluse", "collector": "127/277", "rarity": "C", "color": "black", "type": "Creature — Human Peasant", "url": "7/f/7fb728de-0d6e-4b32-b0c4-edd7382d1391",
                 "transform": { "name": "Odious Witch", "type": "Creature — Human Warlock" }
                 },
+                { "name": "Restless Bloodseeker", "collector": "128/277", "rarity": "U", "color": "black", "type": "Creature — Vampire", "url": "7/1/71f67ac0-7901-4248-9cb7-2200fb8f893e",
+                "transform": { "name": "Bloodsoaked Reveler", "type": "Creature — Vampire" }
+                },
                 { "name": "Rot-Tide Gargantua", "collector": "129/277", "rarity": "C", "color": "black", "type": "Creature — Zombie Kraken", "url": "1/e/1eafefd0-3a9e-400e-8c75-0825aeb2ded1" },
                 { "name": "Undead Butler", "collector": "133/277", "rarity": "U", "color": "black", "type": "Creature — Zombie", "url": "2/c/2c9b8582-8887-4652-82e2-f9b11ee21545" },
                 { "name": "Undying Malice", "collector": "134/277", "rarity": "C", "color": "black", "type": "Instant", "url": "8/e/8eb38041-043a-4b18-9d9a-f1283684e8f1" },
@@ -116,6 +127,8 @@ app.controller("Inventory", function($scope){
                 { "name": "Belligerent Guest", "collector": "144/277", "rarity": "C", "color": "red", "type": "Creature — Vampire", "url": "1/b/1bb844c4-f41c-4411-a80a-c19e1d97b272" },
                 { "name": "Bloody Betrayal", "collector": "147/277", "rarity": "C", "color": "red", "type": "Sorcery", "url": "8/9/8970a5d6-dcab-415a-851b-20e228ef7d16" },
                 { "name": "Cemetery Gatekeeper", "collector": "148/277", "rarity": "M", "color": "red", "type": "Creature — Vampire", "url": "4/5/457086c4-1b4e-4f79-8f2a-10b16174c8bb" },
+                { "name": "Change of Fortune", "collector": "150/277", "rarity": "R", "color": "red", "type": "Sorcery", "url": "6/3/63ca5ce5-94e7-43a1-8f2b-f0a4532f617a" },
+                { "name": "Daybreak Combatants", "collector": "153/277", "rarity": "C", "color": "red", "type": "Creature — Human Warrior", "url": "8/6/8697a861-0f67-4ed3-bed8-f264fc78565e" },
                 { "name": "End the Festivities", "collector": "155/277", "rarity": "C", "color": "red", "type": "Sorcery", "url": "b/e/bec748e6-7245-4a71-aeee-cefed8346948" },
                 { "name": "Falkenrath Celebrants", "collector": "156/277", "rarity": "C", "color": "red", "type": "Creature — Vampire", "url": "4/c/4c3c5778-4760-4a8c-8d8d-693e29a0a74b" },
                 { "name": "Flame-Blessed Bolt", "collector": "158/277", "rarity": "C", "color": "red", "type": "Instant", "url": "b/1/b1771a8f-7bea-4bb0-9949-566ee6613b93" },
@@ -128,6 +141,9 @@ app.controller("Inventory", function($scope){
                 { "name": "Manaform Hellkite", "collector": "170/277", "rarity": "M", "color": "red", "type": "Creature — Dragon", "url": "5/2/52e59170-aa80-45e1-ad0d-ce4818e78d2a" },
                 { "name": "Markov Retribuition", "collector": "171/277", "rarity": "U", "color": "red", "type": "Sorcery", "url": "4/8/48d3840c-db27-4512-bfe3-92249094e5b4" },
                 { "name": "Pyre Spawn", "collector": "173/277", "rarity": "C", "color": "red", "type": "Creature — Elemental", "url": "8/0/80255777-de00-4ffa-a8a0-f522bf4198fb" },
+                { "name": "Reckless Impulse", "collector": "174/277", "rarity": "C", "color": "red", "type": "Sorvery", "url": "6/9/6943c07f-ab0d-4f5a-bbe9-c0a83dc98546" },
+                { "name": "Rending Flame", "collector": "175/277", "rarity": "U", "color": "red", "type": "Sorvery", "url": "5/1/51332c31-41df-4379-aa63-6a734a4df618" },
+                { "name": "Runebound Wolf", "collector": "176/277", "rarity": "U", "color": "red", "type": "Creature — Wolf", "url": "6/f/6f9615f0-376f-4ac0-b269-5f497f2b5223" },
                 { "name": "Sure Strike", "collector": "179/277", "rarity": "C", "color": "red", "type": "Instant", "url": "1/d/1d872736-fafb-44e8-a809-48c5436c665a" },
                 { "name": "Voldaren Epicure", "collector": "182/277", "rarity": "C", "color": "red", "type": "Creature — Vampire", "url": "a/e/ae154e64-f626-45fb-bd52-840c1c27b2d3" },
                 { "name": "Weary Prisoner", "collector": "184/277", "rarity": "C", "color": "red", "type": "Creature — Human Werewolf", "url": "e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce",
@@ -174,11 +190,14 @@ app.controller("Inventory", function($scope){
                 { "name": "Ceremonial Knife", "collector": "254/277", "rarity": "C", "color": "colorless", "type": "Artifact — Equipment", "url": "9/c/9ccb4b1e-ef8f-4c5f-8b5b-6148455442f7" },
                 { "name": "Honored Heirloom", "collector": "257/277", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "d/3/d3390e4d-9137-40ff-b998-bdb19c90b7d5" },
                 { "name": "Lantern of the Lost", "collector": "259/277", "rarity": "U", "color": "colorless", "type": "Artifact", "url": "c/2/c2303f11-2c82-44d5-893a-8e71dece7746" },
+                { "name": "Wedding Invitation", "collector": "260/277", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "d/d/ddc22ff6-4081-47ce-bc8a-e063f5f4d044" },
 
                 { "name": "Evolving Wilds", "collector": "263/277", "rarity": "L", "type": "Land", "url": "e/8/e80fe230-745d-42ae-a1f5-a8cc950783d0" },
                 { "name": "Plains", "collector": "268/277", "rarity": "L", "type": "Basic Land — Plains", "url": "d/e/deabdaa1-6227-48e4-82d5-63a1771320b2" },
                 { "name": "Plains", "collector": "269/277", "rarity": "L", "type": "Basic Land — Plains", "url": "2/b/2b069f97-735a-4d85-8504-b5a863bd659b" },
+                { "name": "Island", "collector": "270/277", "rarity": "L", "type": "Basic Land — Island", "url": "5/4/54ddd3aa-593c-4adb-b591-33c15d02131c" },
                 { "name": "Island", "collector": "271/277", "rarity": "L", "type": "Basic Land — Island", "url": "5/4/54591ec7-94a1-470c-927a-788b6a514444" },
+                { "name": "Swamp", "collector": "272/277", "rarity": "L", "type": "Basic Land — Island", "url": "4/a/4abfe418-15f8-46ce-9b39-fd5a38b25d12" },
                 { "name": "Swamp", "collector": "273/277", "rarity": "L", "type": "Basic Land — Swamp", "url": "2/e/2e55a405-bf5b-4158-ba9a-239627ac9701" },
                 { "name": "Mountain", "collector": "274/277", "rarity": "L", "type": "Basic Land — Mountain", "url": "8/a/8a4448b6-0dbe-427c-b145-8ac915fc0dfc" },
                 { "name": "Mountain", "collector": "275/277", "rarity": "L", "type": "Basic Land — Mountain", "url": "a/6/a6f72e53-52bb-4cf4-9b8b-34ed0c5f7c3c" },
@@ -187,8 +206,11 @@ app.controller("Inventory", function($scope){
                 { "name": "Plains", "collector": "398", "rarity": "L", "type": "Basic Land — Plains", "url": "2/0/20ddb0be-d62d-46fa-b753-36dfab935e8a" },
                 { "name": "Island", "collector": "399", "rarity": "L", "type": "Basic Land — Island", "url": "f/8/f82b281f-d3c7-4eb8-9a10-b4808ca6cfcd" },
 
-                { "name": "Belligerent Guest", "collector": "301", "rarity": "C", "type": "Creature — Vampire", "url": "9/2/924b1c15-811a-4d11-a481-f904002a6740" },
                 { "name": "Bloodcrazed Socialite", "collector": "288", "rarity": "C", "type": "Creature — Vampire", "url": "9/d/9df22639-7e98-43a1-801e-cbf882558c53" },
+                { "name": "Restless Bloodseeker", "collector": "295", "rarity": "U", "color": "black", "type": "Creature — Vampire", "url": "c/0/c05a85ef-5ac0-4bd1-8ef1-de2ff84e448d",
+                "transform": { "name": "Bloodsoaked Reveler", "type": "Creature — Vampire" }
+                },
+                { "name": "Belligerent Guest", "collector": "301", "rarity": "C", "type": "Creature — Vampire", "url": "9/2/924b1c15-811a-4d11-a481-f904002a6740" },
                 { "name": "Blood Petal Celebrant", "collector": "303", "rarity": "C", "type": "Creature — Vampire", "url": "4/5/4592609d-48f5-4762-b95c-b2eaa2ea4d51" },
                 { "name": "Voldaren Epicure", "collector": "308", "rarity": "C", "type": "Creature — Vampire", "url": "f/e/feda6bb3-ee22-489c-bcfd-52ef04841024" },
                 { "name": "Falkenrath Celebrants", "collector": "306", "rarity": "C", "type": "Creature — Vampire", "url": "6/a/6aacc8fa-9440-494b-a3d9-7b1678c5a9f6" },
