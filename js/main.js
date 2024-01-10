@@ -209,7 +209,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Falkenrath Celebrants", "collector": "306", "rarity": "C", "type": "Creature — Vampire", "url": "6/a/6aacc8fa-9440-494b-a3d9-7b1678c5a9f6" },
                 { "name": "Katilda, Dawnhart Martyr", "collector": "317", "rarity": "R", "type": "Legendary Creature — Spirit Warlock", "url": "8/6/866828f0-71f7-454b-93a7-2f2ea707f53d" },
                 { "name": "Thalia, Guardian of Thraben", "collector": "318", "rarity": "R", "type": "Legendary Creature — Human Soldier", "url": "e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e" },
-                { "name": "Old Rutstein", "collector": "326", "rarity": "R", "type": "Legendary Creature — Human Peasant", "url": "6/2/625b8023-2ef1-4b7b-9e48-4f774fee14e0" }
+                { "name": "Old Rutstein", "collector": "326", "rarity": "R", "type": "Legendary Creature — Human Peasant", "url": "9/0/90930e16-4a77-4ce6-bab4-e099184d1b54" }
             ]
         }
     ];
