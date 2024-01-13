@@ -9,6 +9,7 @@ app.controller("Inventory", function($scope){
             "cards" : [
                 { "name": "Adamant Will", "collector": "001/277", "rarity": "C", "color": "white", "type": "Instant", "url": "b/d/bd091f3e-5fcc-4d12-b0c3-3b6340ab01d8" },
                 { "name": "Angelic Quartermaster", "collector": "002/277", "rarity": "U", "color": "white", "type": "Creature — Angel Soldier", "url": "4/1/41d81b88-c19b-4148-89ba-ae8fb53843e1" },
+                { "name": "By Invitation Only", "collector": "005/277", "rarity": "R", "color": "white", "type": "Sorcery", "url": "4/6/46764e49-64da-4a94-b61c-75e006b2c5a9" },
                 { "name": "Cemetery Protector", "collector": "006/277", "rarity": "M", "color": "white", "type": "Creature — Human Soldier", "url": "c/0/c00731eb-69fe-42f3-9919-66a4cdec00f7" },
                 { "name": "Circle of Confinement", "collector": "007/277", "rarity": "U", "color": "white", "type": "Enchantment", "url": "1/3/13031fb6-9d5a-4add-9a86-28b2a9373fd2" },
                 { "name": "Dawnhart Geist", "collector": "008/277", "rarity": "U", "color": "white", "type": "Creature — Spirit Warlock", "url": "a/1/a1d27617-2d3d-44a1-b93f-0694253b6774" },
@@ -135,8 +136,11 @@ app.controller("Inventory", function($scope){
                 { "name": "Reckless Impulse", "collector": "174/277", "rarity": "C", "color": "red", "type": "Sorvery", "url": "6/9/6943c07f-ab0d-4f5a-bbe9-c0a83dc98546" },
                 { "name": "Rending Flame", "collector": "175/277", "rarity": "U", "color": "red", "type": "Sorvery", "url": "5/1/51332c31-41df-4379-aa63-6a734a4df618" },
                 { "name": "Runebound Wolf", "collector": "176/277", "rarity": "U", "color": "red", "type": "Creature — Wolf", "url": "6/f/6f9615f0-376f-4ac0-b269-5f497f2b5223" },
+                { "name": "Sanguine Statuette", "collector": "177/277", "rarity": "U", "color": "red", "type": "Artifact", "url": "7/0/706fafd4-443f-4e16-972e-86c16f22670a" },
                 { "name": "Sure Strike", "collector": "179/277", "rarity": "C", "color": "red", "type": "Instant", "url": "1/d/1d872736-fafb-44e8-a809-48c5436c665a" },
+                { "name": "Vampire's Vengeance", "collector": "180/277", "rarity": "U", "color": "red", "type": "Instant", "url": "2/0/20d2d886-13a2-44f1-966a-ec674622fd01" },
                 { "name": "Voldaren Epicure", "collector": "182/277", "rarity": "C", "color": "red", "type": "Creature — Vampire", "url": "a/e/ae154e64-f626-45fb-bd52-840c1c27b2d3" },
+                { "name": "Voltaic Visionary", "collector": "183/277", "rarity": "U", "color": "red", "type": "Creature — Human Wizard", "url": "a/8/a8b85386-462b-46f8-9412-fd47ed1dc1da" },
                 { "name": "Weary Prisoner", "collector": "184/277", "rarity": "C", "color": "red", "type": "Creature — Human Werewolf", "url": "e/6/e641467b-ac2e-4d29-aed7-5cc227c3b1ce",
                 "transform": { "name": "Wrathful Jailbreaker", "type": "Creature — Werewolf" } },
 
@@ -187,6 +191,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Wedding Invitation", "collector": "260/277", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "d/d/ddc22ff6-4081-47ce-bc8a-e063f5f4d044" },
 
                 { "name": "Evolving Wilds", "collector": "263/277", "rarity": "L", "type": "Land", "url": "e/8/e80fe230-745d-42ae-a1f5-a8cc950783d0" },
+                { "name": "Voldaren Estate", "collector": "267/277", "rarity": "R", "type": "Land", "url": "2/5/2577e5fd-903a-44ce-989a-d53d56511ad3" },
                 { "name": "Plains", "collector": "268/277", "rarity": "L", "type": "Basic Land — Plains", "url": "d/e/deabdaa1-6227-48e4-82d5-63a1771320b2" },
                 { "name": "Plains", "collector": "269/277", "rarity": "L", "type": "Basic Land — Plains", "url": "2/b/2b069f97-735a-4d85-8504-b5a863bd659b" },
                 { "name": "Island", "collector": "270/277", "rarity": "L", "type": "Basic Land — Island", "url": "5/4/54ddd3aa-593c-4adb-b591-33c15d02131c" },
