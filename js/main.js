@@ -1,7 +1,7 @@
 var app = angular.module('Murgo', []);
 
 app.controller("Inventory", function($scope){
-    $scope.cards = [
+    $scope.binder = [
         {
             "expansion": "Innistrad Crimson Vow",
             "set": "VOW",
