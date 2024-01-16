@@ -219,7 +219,7 @@ app.controller("Inventory", function($scope){
         },
         {
             "expansion": "Wilds of Eldraine",
-            "set": "WOE",
+            "code": "WOE",
             "released": "11.2023",
             "cards": [
                 { "name": "Besotted Knight", "collector": "0004", "rarity": "C", "color": "white", "type": "Creature — Human Knight", "url": "5/9/5980a930-c7f8-45e1-a18a-87734d9ed09e" },
@@ -295,8 +295,8 @@ app.controller("Inventory", function($scope){
             ]
         },
         {
-            "expansion": "Wilds of Eldraine: Enchanting Tales",
-            "set": "WOT",
+            "expansion": "WOE: Enchanting Tales",
+            "code": "WOT",
             "released": "09.2023",
             "cards": [
                 { "name": "Curiosity", "collector": "0017", "rarity": "U", "color": "blue", "type": "Enchantment — Aura", "url": "9/6/96056dc1-b989-4c87-8ad9-7a9dd99dd7fc" },
@@ -307,6 +307,86 @@ app.controller("Inventory", function($scope){
                 { "name": "Leyline of the Void", "collector": "0030", "rarity": "R", "color": "black", "type": "Enchantment", "url": "0/3/034bfd23-8f10-4d98-9500-47d392531c69" },
                 { "name": "Nature's Will", "collector": "0057", "rarity": "R", "color": "green", "type": "Enchantment", "url": "c/e/ce7785c2-0b3f-4952-8b2d-71fe73cf64e0" },
                 { "name": "Season of Growth", "collector": "0061", "rarity": "U", "color": "green", "type": "Enchantment", "url": "7/4/742f2d20-0f6b-488e-ae37-54a41522c191" }
+            ]
+        },
+        {
+            "expansion": "Commander Masters",
+            "code": "CMM",
+            "released": "09.2023",
+            "cards": [
+                { "name": "Pathrazer of Ulamog", "collector": "0004", "rarity": "U", "color": "colorless", "type": "Creature — Eldrazi", "url": "c/9/c9b1d4d8-7df9-41e0-b2d9-dbca9c9f6994" },
+
+                { "name": "Alms Collector", "collector": "0010", "rarity": "R", "color": "white", "type": "Creature — Cat Cleric", "url": "3/6/367ac07a-a30f-4ebf-8877-27cd9ebe2f71" },
+                { "name": "Battle Screech", "collector": "0017", "rarity": "C", "color": "white", "type": "Sorcery", "url": "9/0/90301f8c-f7af-4179-8faf-9901931bba8d" },
+                { "name": "Baird, Steward of Argive", "collector": "0015", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Soldier", "url": "9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7" },
+                { "name": "Gavony Silversmith", "collector": "0025", "rarity": "C", "color": "white", "type": "Creature — Soldier", "url": "e/8/e8d78a93-1a9f-4bc1-82b4-d3434367d27b" },
+                { "name": "Pianna, Nomad Captain", "collector": "0050", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Nomad", "url": "9/0/90ebb129-aa8d-4107-8e74-0b04525d76e0" },
+                { "name": "Supply Runners", "collector": "0063", "rarity": "C", "color": "white", "type": "Creature — Dog", "url": "e/4/e41cbc3b-a2e9-4a14-a603-581413bc0b17" },
+                { "name": "Wrath of God", "collector": "0070", "rarity": "R", "color": "white", "type": "Sorcery", "url": "5/3/537d2b05-3f52-45d6-8fe3-26282085d0c6" },
+
+                { "name": "Filigree Attendant", "collector": "0095", "rarity": "C", "color": "blue", "type": "Artifact Creature — Humunculus", "url": "7/5/75600598-f988-49fc-ba86-692367c007b4" },
+                { "name": "Frantic Search", "collector": "0096", "rarity": "C", "color": "blue", "type": "Instant", "url": "0/e/0eb00e3c-b67a-44c7-ae61-23ecf4d4971a" },
+                { "name": "Murder of Crows", "collector": "0106", "rarity": "U", "color": "blue", "type": "Creature — Bird", "url": "1/c/1c7dc810-c4cb-4dca-ae06-d79daf8e1477" },
+                { "name": "Renowned Weaponsmith", "collector": "0114", "rarity": "C", "color": "blue", "type": "Creature — Human Artificer", "url": "5/a/5a397298-9d7d-495f-983a-1683291a7b9f" },
+                { "name": "Torrential Gearhulk", "collector": "0128", "rarity": "R", "color": "blue", "type": "Artifact Creature — Construct", "url": "9/2/92872fea-2fb4-4154-815e-cad9d966e60f" },
+                
+                { "name": "Demonlord Belzenlok", "collector": "0151", "rarity": "R", "color": "black", "type": "Legendary Creature — Elder Demon", "url": "b/0/b07114d8-40b3-4102-8d70-e3ed94a7f515" },
+                { "name": "Isareth the Awakener", "collector": "0168", "rarity": "U", "color": "black", "type": "Legendary Creature — Human Wizard", "url": "d/5/d5de9b95-1c20-4d1a-be7d-4307ec2803ba" },
+                { "name": "Kindred Dominance", "collector": "0169", "rarity": "R", "color": "black", "type": "Sorcery", "url": "a/f/af613b69-b9f6-4221-a21b-c8e4b0f010f1" },                
+                { "name": "Nadier's Nightblade", "collector": "0175", "rarity": "C", "color": "black", "type": "Creature — Elf Warrior", "url": "1/c/1cd606c3-795a-49d8-8b75-6a3aacb4a72f" },
+                { "name": "Phyrexian Gargantua", "collector": "0178", "rarity": "C", "color": "black", "type": "Creature — Phyrexian Horror", "url": "0/8/08648c0a-e075-45ac-ad8c-80c425d3487e" },
+                { "name": "Priest of the Blood Rite", "collector": "0179", "rarity": "U", "color": "black", "type": "Creature — Human Cleric", "url": "1/4/14db0f35-905b-45c9-a0cc-1c47720380eb" },
+                { "name": "Serrated Scorpion", "collector": "0185", "rarity": "C", "color": "black", "type": "Creature — Scorpion", "url": "7/8/78509763-4bb8-4030-b205-76917de75c57" },
+                { "name": "Shirei, Shizo's Caretaker", "collector": "0186", "rarity": "U", "color": "black", "type": "Legendary Creature — Spirit", "url": "6/9/69848ec1-dba7-419f-a5f9-f934bebeeaa6" },
+                { "name": "Supernatural Stamina", "collector": "0188", "rarity": "C", "color": "black", "type": "Instant", "url": "2/b/2b349b4b-f08d-45e8-81f6-3467a02e6d23" },
+                { "name": "Tragic Slip", "collector": "0192", "rarity": "C", "color": "black", "type": "Instant", "url": "5/8/588332da-8ec5-49d1-a365-455beb7913a2" },
+                { "name": "Vindictive Lich", "collector": "0196", "rarity": "R", "color": "black", "type": "Creature — Zombie Wizard", "url": "0/1/0120b644-477d-4297-b94f-56120a384bc2" },
+
+                { "name": "Abrade", "collector": "0203", "rarity": "C", "color": "red", "type": "Instant", "url": "c/1/c1d9e279-61c1-4567-9f54-50a7138fb36d" },
+                { "name": "Captain Ripley Vance", "collector": "0209", "rarity": "U", "color": "red", "type": "Legendary Creature — Human Pirate", "url": "d/6/d640bc10-51ce-48e9-bceb-c3e69d7eae31" },
+                { "name": "Deflecting Swat", "collector": "0214", "rarity": "R", "color": "red", "type": "Instant", "url": "b/4/b4b36435-55b3-4615-8812-af41d4fc64d9" },
+                { "name": "Disrupt Decorum", "collector": "0215", "rarity": "R", "color": "red", "type": "Sorcery", "url": "5/0/50359328-9378-448d-9817-805503186a55" },
+                { "name": "Frontier Warmonger", "collector": "0224", "rarity": "U", "color": "red", "type": "Creature — Human Warrior", "url": "3/9/39282507-8921-43e3-a836-f73ba6da5623" },
+                { "name": "Furious Rise", "collector": "0225", "rarity": "U", "color": "red", "type": "Enchantment", "url": "1/f/1f5da1ab-d720-4140-8121-89de760d020c" },
+                { "name": "Godo, Bandit Warlord", "collector": "0227", "rarity": "R", "color": "red", "type": "Legendary Creature — Human Barbarian", "url": "0/1/01d566cf-cb32-461d-8afe-b0f3f4c24160" },
+                { "name": "Havoc Jester", "collector": "0230", "rarity": "U", "color": "red", "type": "Creature — Devil", "url": "a/7/a7790d21-4751-4f1b-a7f4-2bbcf842b0b6" },
+                { "name": "Impulsive Pilferer", "collector": "0234", "rarity": "C", "color": "red", "type": "Creature — Goblin Pirate", "url": "a/e/aea2e32d-d711-40ae-87d5-c16893bfc8ca" },
+                { "name": "Ravaging Blaze", "collector": "0250", "rarity": "U", "color": "red", "type": "Instant", "url": "a/e/ae28c04c-d208-4949-a3ec-7d549f5740c3" },
+                { "name": "Rorix Bladewing", "collector": "0251", "rarity": "U", "color": "", "type": "Legendary Creature — Dragon", "url": "3/2/32668329-2f62-48ed-8da3-3cb0c3692ed9" },
+
+                { "name": "Azusa, Lost but Seeking", "collector": "0274", "rarity": "R", "color": "green", "type": "Legendary Creature — Human Monk", "url": "2/f/2fe97fbe-a6d6-4e96-8c26-f81bcdf579a1" },
+                { "name": "Crawling Infestation", "collector": "0281", "rarity": "C", "color": "green", "type": "Enchantment", "url": "3/a/3a404d9b-02dd-45bc-b3eb-bc28452da22e" },
+                { "name": "Entourage of Trest", "collector": "0285", "rarity": "C", "color": "green", "type": "Creature — Elf Soldier", "url": "7/8/78075b31-8145-4053-90dd-6a34bd48fa7c" },
+                { "name": "Fierce Empath", "collector": "0288", "rarity": "C", "color": "green", "type": "Creature — Elf", "url": "b/4/b4a8684b-5164-4313-ab3e-4c5b4f52bc7e" },
+                { "name": "Pollenbright Druid", "collector": "0312", "rarity": "C", "color": "green", "type": "Creature — Elf Druid", "url": "e/8/e8215686-bf19-4090-87c1-dd4f691f2ae7" },
+                { "name": "Wildwood Scourge", "collector": "0332", "rarity": "U", "color": "green", "type": "Creature — Hydra", "url": "b/b/bb35e40f-bbcf-4e2b-9603-7719c74dc076" },
+
+                { "name": "Akiri, Fearless Voyager", "collector": "0335", "rarity": "U", "color": "multi", "type": "Legendary Creature — Kor Warrior", "url": "f/a/fa135775-abcd-4a21-abb7-3aeb5a39df28" },
+                { "name": "Melek, Izzet Paragon", "collector": "0345", "rarity": "U", "color": "multi", "type": "Legendary Creature — Weird Wizard", "url": "6/6/66011fe8-8c5d-4990-a324-5839515dcacb" },
+                { "name": "Mirri, Weatherlight Duelist", "collector": "0347", "rarity": "R", "color": "multi", "type": "Legendary Creature — Cat Warrior", "url": "d/b/db44fe95-6a32-4d6f-a32f-72491381f495" },
+                
+                { "name": "Haunted Cloak", "collector": "0389", "rarity": "C", "color": "colorless", "type": "Artifact — Equipment", "url": "a/b/abffd0a3-ea7a-43cf-b92d-d9f436bef58e" },
+                { "name": "Heart-Piecer Bow", "collector": "0390", "rarity": "C", "color": "colorless", "type": "Artifact — Equipment", "url": "b/2/b26a42c6-fc98-4993-891c-7ac6a0735543" },
+                { "name": "Letter of Acceptance", "collector": "0397", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "a/e/ae094ace-1760-4bdd-a513-04616fb0deeb" },
+                { "name": "Sandstone Oracle", "collector": "0406", "rarity": "U", "color": "colorless", "type": "Artifact Creature — Sphinx", "url": "c/7/c7333ea3-2c98-405a-a5cc-eecba9b14a00" },
+                { "name": "Vial of Dragonfire", "collector": "0417", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "c/9/c924502b-a49e-4bf6-9e1a-9aa83f279228" },
+                { "name": "Vulshock Battlegear", "collector": "418", "rarity": "C", "color": "colorless", "type": "Artifact — Equipment", "url": "8/3/8363acf3-eff9-4f57-8b8a-683256d279e0" },
+
+                { "name": "Island", "collector": "440", "rarity": "L", "type": "Basic Land — Island", "url": "b/d/bdb63d4b-0bca-4b8e-bed0-0dc29ad0bac3" },
+                { "name": "Swamp", "collector": "445", "rarity": "L", "type": "Basic Land — Swamp", "url": "7/c/7c71891b-9980-4b71-8301-e92288d33235" },
+                { "name": "Mountain", "collector": "446", "rarity": "L", "type": "Basic Land — Mountain", "url": "f/8/f836071c-9ee3-4dc0-95b6-28d0c5de76f3" },
+                { "name": "Mountain", "collector": "448", "rarity": "L", "type": "Basic Land — Mountain", "url": "b/b/bbbecd1f-81ad-427e-a50d-64b9ec029c3c" },
+
+                { "name": "Darksteel Mutation", "collector": "0623", "rarity": "U", "color": "white", "type": "Enchantment — Aura", "url": "0/8/08605ffa-de04-4831-a078-5b3d65c2526f" },
+                { "name": "Generous Gift", "collector": "0624", "rarity": "C", "color": "white", "type": "Instant", "url": "a/1/a1cd4438-a25d-4618-9e93-2c62f6bfc5f5" },
+                { "name": "Frantic Search", "collector": "0632", "rarity": "C", "color": "blue", "type": "Instant", "url": "a/4/a4a2a4ce-a44b-480b-b1a2-94fb2514c082" },
+                { "name": "Dread Return", "collector": "0637", "rarity": "C", "color": "black", "type": "Sorcery", "url": "7/2/721aff76-9f80-4ec2-ae29-2dc8494a1a06" },
+                { "name": "Elvish Mystic", "collector": "0648", "rarity": "C", "color": "green", "type": "Creature — Elf Druid", "url": "0/7/077ba531-ab3b-4d00-af2c-2d4914c68cd8" },
+
+                { "name": "Eldrazi", "collector": "0001", "rarity": "T", "type": "Token Creature — Eldrazi", "url": "1/a/1a2f00da-1c4d-45d4-af34-9216a34bff2a" },
+                { "name": "Eldrazi Spawn", "collector": "0003", "rarity": "T", "type": "Token Creature — Eldrazi Spawn", "url": "1/e/1e820258-933f-4ad2-b63b-c6cd7f5bddf3" },
+                { "name": "Thrull", "collector": "0018", "rarity": "T", "type": "Token Creature — Thrull", "url": "d/c/dc5604c5-4fff-4bb6-bf6d-69027e4eeb21" },
+                { "name": "Clue", "collector": "0040", "rarity": "T", "type": "Token Artifact — Clue", "url": "5/a/5adbbaa4-b1e3-4c5f-a1c7-aa294f838c54" }
             ]
         }
     ];
