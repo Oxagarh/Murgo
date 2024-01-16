@@ -319,6 +319,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Ainok Bond-Kin", "collector": "0007", "rarity": "C", "color": "white", "type": "Creature — Dog Soldier", "url": "6/9/6956c523-507c-4256-88b8-58a8a108c79f" },
                 { "name": "Alms Collector", "collector": "0010", "rarity": "R", "color": "white", "type": "Creature — Cat Cleric", "url": "3/6/367ac07a-a30f-4ebf-8877-27cd9ebe2f71" },                
                 { "name": "Baird, Steward of Argive", "collector": "0015", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Soldier", "url": "9/1/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7" },
+                { "name": "Balan, the Wandering Knight", "collector": "0016", "rarity": "R", "color": "white", "type": "Legendary Creature — Cat Knight", "url": "0/4/049ebad9-bf65-48e2-9640-c11b5f04e38b" },
                 { "name": "Battle Screech", "collector": "0017", "rarity": "C", "color": "white", "type": "Sorcery", "url": "9/0/90301f8c-f7af-4179-8faf-9901931bba8d" },
                 { "name": "Darksteel Mutation", "collector": "0021", "rarity": "U", "color": "white", "type": "Enchantment — Aura", "url": "e/4/e47a6750-4fdd-44e2-86ae-5bc4d414bf42" },
                 { "name": "Gavony Silversmith", "collector": "0025", "rarity": "C", "color": "white", "type": "Creature — Soldier", "url": "e/8/e8d78a93-1a9f-4bc1-82b4-d3434367d27b" },
@@ -327,6 +328,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Knighted Myr", "collector": "0036", "rarity": "C", "color": "white", "type": "Artifact Creature — Myr Knight", "url": "d/b/db0489ee-96b6-4437-a716-ee07ecbd4cb7" },
                 { "name": "Loyal Unicorn", "collector": "0040", "rarity": "U", "color": "white", "type": "Creature — Unicorn", "url": "c/1/c1d7203b-55ed-4d08-ac2e-2c4b4b93c274" },
                 { "name": "Mace of the Valiant", "collector": "0041", "rarity": "U", "color": "white", "type": "Artifact — Equipment", "url": "8/8/88a08aff-3a50-4f2e-97a1-f1d79d5c4ade" },
+                { "name": "Nahiri, the Lithomancer", "collector": "0045", "rarity": "R", "color": "white", "type": "Legendary Planeswalker — Nahiri", "url": "b/0/b074e60a-6f9b-4679-9617-261e2e15e1e8" },
                 { "name": "Pianna, Nomad Captain", "collector": "0050", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Nomad", "url": "9/0/90ebb129-aa8d-4107-8e74-0b04525d76e0" },
                 { "name": "Righteous Confluence", "collector": "0053", "rarity": "R", "color": "white", "type": "Sorcery", "url": "8/9/89c2faf6-e65b-4962-82d4-0294912c2ddb" },
                 { "name": "Sunspear Shikari", "collector": "0062", "rarity": "C", "color": "white", "type": "Legendary Creature — Cat Soldier", "url": "3/0/303df3ba-1258-4141-ace2-577f9e89a14c" },
@@ -455,12 +457,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Commander's Sphere", "collector": "0655", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "5/1/516692b8-fbaf-4698-864b-5363aafc95b9" },
                 { "name": "Myriad Landscape", "collector": "0660", "rarity": "U", "type": "Land", "url": "5/e/5efb9b5a-f904-4934-9530-87d752eeae75" },
 
-                { "name": "Kemba, Kha Regent", "collector": "0671", "rarity": "U", "type": "Legendary Creature — Cat Cleric", "url": "5/7/57ae202c-21bf-4142-a8f0-89a13c25f9f9" },
-
-                { "name": "Eldrazi", "collector": "0001", "rarity": "T", "type": "Token Creature — Eldrazi", "url": "1/a/1a2f00da-1c4d-45d4-af34-9216a34bff2a" },
-                { "name": "Eldrazi Spawn", "collector": "0003", "rarity": "T", "type": "Token Creature — Eldrazi Spawn", "url": "1/e/1e820258-933f-4ad2-b63b-c6cd7f5bddf3" },
-                { "name": "Thrull", "collector": "0018", "rarity": "T", "type": "Token Creature — Thrull", "url": "d/c/dc5604c5-4fff-4bb6-bf6d-69027e4eeb21" },
-                { "name": "Clue", "collector": "0040", "rarity": "T", "type": "Token Artifact — Clue", "url": "5/a/5adbbaa4-b1e3-4c5f-a1c7-aa294f838c54" }
+                { "name": "Kemba, Kha Regent", "collector": "0671", "rarity": "U", "type": "Legendary Creature — Cat Cleric", "url": "5/7/57ae202c-21bf-4142-a8f0-89a13c25f9f9" }
             ]
         }
     ];
