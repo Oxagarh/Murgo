@@ -52,6 +52,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Chill of the Grave", "collector": "051/277", "rarity": "C", "color": "blue", "type": "Instant", "url": "6/0/60222e91-a688-4113-a8c2-ab08f52bb6e1" },
                 { "name": "Cradle of Safety", "collector": "054/277", "rarity": "C", "color": "blue", "type": "Enchantment — Aura", "url": "4/2/42cbad81-152a-435f-9289-f4b6483a059b" },
                 { "name": "Cruel Witness", "collector": "055/277", "rarity": "C", "color": "blue", "type": "Creature — Bird Horror", "url": "5/b/5bf2c686-efb0-46c7-b34e-c77987914b96" },
+                { "name": "Diver Skaab", "collector": "0576/277", "rarity": "U", "color": "blue", "type": "Creature — Zombie", "url": "3/8/38b5fdf4-3884-436f-8066-bc7593e72b02" },
                 { "name": "Dreadlight Monstrosity", "collector": "057/277", "rarity": "C", "color": "blue", "type": "Creature — Crab Horror", "url": "1/6/16345278-7565-406b-a958-835081082bc8" },
                 { "name": "Fear of Death", "collector": "059/277", "rarity": "C", "color": "blue", "type": "Enchantment — Aura", "url": "b/8/b81704d2-d555-4894-b36c-6b65d1ebe681" },
                 { "name": "Hullbraker Horror", "collector": "063/277", "rarity": "R", "color": "blue", "type": "Creature — Kraken Horror", "url": "b/f/bf786c50-1ba1-4f81-a800-bc98189040dd" },
@@ -185,6 +186,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Wandering Mind", "collector": "251/277", "rarity": "U", "color": "multi", "type": "Creature — Horror", "url": "4/b/4b9a1096-6313-4245-be18-1588c219b842" },
                 
                 { "name": "Blood Servitor", "collector": "252/277", "rarity": "C", "color": "colorless", "type": "Artifact Creature — Construct", "url": "8/7/87845cc2-bf5d-491d-bfa2-b33b034557a4" },
+                { "name": "Boarded Window", "collector": "253/277", "rarity": "U", "color": "colorless", "type": "Artifact", "url": "f/0/f02cf94c-94d3-4c4c-a7ae-b4d48ef5b14e" },
                 { "name": "Ceremonial Knife", "collector": "254/277", "rarity": "C", "color": "colorless", "type": "Artifact — Equipment", "url": "9/c/9ccb4b1e-ef8f-4c5f-8b5b-6148455442f7" },
                 { "name": "Honored Heirloom", "collector": "257/277", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "d/3/d3390e4d-9137-40ff-b998-bdb19c90b7d5" },
                 { "name": "Lantern of the Lost", "collector": "259/277", "rarity": "U", "color": "colorless", "type": "Artifact", "url": "c/2/c2303f11-2c82-44d5-893a-8e71dece7746" },
@@ -210,8 +212,9 @@ app.controller("Inventory", function($scope){
                 "transform": { "name": "Bloodsoaked Reveler", "type": "Creature — Vampire" } },
                 { "name": "Belligerent Guest", "collector": "301", "rarity": "C", "type": "Creature — Vampire", "url": "9/2/924b1c15-811a-4d11-a481-f904002a6740" },
                 { "name": "Blood Petal Celebrant", "collector": "303", "rarity": "C", "type": "Creature — Vampire", "url": "4/5/4592609d-48f5-4762-b95c-b2eaa2ea4d51" },
-                { "name": "Voldaren Epicure", "collector": "308", "rarity": "C", "type": "Creature — Vampire", "url": "f/e/feda6bb3-ee22-489c-bcfd-52ef04841024" },
                 { "name": "Falkenrath Celebrants", "collector": "306", "rarity": "C", "type": "Creature — Vampire", "url": "6/a/6aacc8fa-9440-494b-a3d9-7b1678c5a9f6" },
+                { "name": "Voldaren Epicure", "collector": "308", "rarity": "C", "type": "Creature — Vampire", "url": "f/e/feda6bb3-ee22-489c-bcfd-52ef04841024" },
+                { "name": "Edgar, Charmed Groom", "collector": "311", "rarity": "R", "type": "Legendary Creature — Vampire Noble", "url": "7/a/7abf10e9-6f06-4424-b156-dd03e4d3e4f6" },
                 { "name": "Katilda, Dawnhart Martyr", "collector": "317", "rarity": "R", "type": "Legendary Creature — Spirit Warlock", "url": "8/6/866828f0-71f7-454b-93a7-2f2ea707f53d" },
                 { "name": "Thalia, Guardian of Thraben", "collector": "318", "rarity": "R", "type": "Legendary Creature — Human Soldier", "url": "e/4/e4c7cbfc-e655-4f82-8bde-fbc95461361e" },
                 { "name": "Old Rutstein", "collector": "326", "rarity": "R", "type": "Legendary Creature — Human Peasant", "url": "9/0/90930e16-4a77-4ce6-bab4-e099184d1b54" }
@@ -223,58 +226,75 @@ app.controller("Inventory", function($scope){
             "released": "11.2023",
             "cards": [
                 { "name": "Besotted Knight", "collector": "0004", "rarity": "C", "color": "white", "type": "Creature — Human Knight", "url": "5/9/5980a930-c7f8-45e1-a18a-87734d9ed09e" },
-                { "name": "Cooped Up", "collector": "0008", "rarity": "C", "color": "white", "type": "Enchatment — Aura", "url": "8/a/8acb8758-09c5-4e19-ada1-904e36ece1fc" },                
+                { "name": "Charmed Clothier", "collector": "0006", "rarity": "C", "color": "white", "type": "Creature — Faerie Advisor", "url": "9/9/994f4473-dfc9-45cd-8528-945db3aa6a9a" },
+                { "name": "Cooped Up", "collector": "0008", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "8/a/8acb8758-09c5-4e19-ada1-904e36ece1fc" },
+                { "name": "Plunge into Winter", "collector": "0022", "rarity": "U", "color": "white", "type": "Instant", "url": "f/e/fe4aceba-f386-457c-bc68-6382eda46754" },
+                { "name": "Returned Triumphant", "collector": "0026", "rarity": "C", "color": "white", "type": "Sorcery", "url": "f/5/f5209c13-9591-48eb-8d6c-112b3bdd429a" },
                 { "name": "Solitary Sanctuary", "collector": "0030", "rarity": "U", "color": "white", "type": "Enchantment", "url": "d/1/d155693c-def0-4290-b662-ab9932e07fe5" },
                 { "name": "Spellbook Vendor", "collector": "0031", "rarity": "R", "color": "white", "type": "Creature — Human Peasant", "url": "4/c/4ceac5b5-05eb-4f00-9477-3db490be24dd" },
                 { "name": "Stockpiling Celebant", "collector": "0032", "rarity": "C", "color": "white", "type": "Creature — Dwarf Knight", "url": "0/2/0214ebc6-c59f-4170-8dd2-ce07caa6e6ad" },
                 { "name": "Three Blind Mice", "collector": "0035", "rarity": "R", "color": "white", "type": "Enchantment — Saga", "url": "0/d/0d2ba371-854c-4529-b72b-e4a1887e33ab" },
 
-                { "name": "Bitter Chill", "collector": "0044", "rarity": "U", "color": "blue", "type": "Enchatment — Aura", "url": "8/8/888e3c71-e21d-4e77-b1b6-09769f9cd3d6" },
+                { "name": "Bitter Chill", "collector": "0044", "rarity": "U", "color": "blue", "type": "Enchantment — Aura", "url": "8/8/888e3c71-e21d-4e77-b1b6-09769f9cd3d6" },
+                { "name": "Gadwick's First Duel", "collector": "0051", "rarity": "U", "color": "blue", "type": "Enchantment — Saga", "url": "a/f/af07c47f-8b4e-43cb-b469-2efb82aa5590" },
                 { "name": "Icewrought Sentry", "collector": "0055", "rarity": "U", "color": "blue", "type": "Creature — Elemental Soldier", "url": "8/5/859419d3-cd15-4362-98b3-a7ff98e29692" },
                 { "name": "Merfol Coralsmith", "collector": "0060", "rarity": "C", "color": "blue", "type": "Creature — Merfolk", "url": "a/7/a7f6a79c-aa2f-47d2-a929-1606a61f9341" },
                 { "name": "Misleading Motes", "collector": "0061", "rarity": "C", "color": "blue", "type": "Instant", "url": "4/c/4c6c7a43-c3d1-450e-834a-54e1b9def1cd" },
                 { "name": "Mocking Sprite", "collector": "0062", "rarity": "C", "color": "blue", "type": "Creature — Faerie Rogue", "url": "e/5/e595014d-4ff4-4561-b7f2-a9bd56300b01" },
-                { "name": "Obyra's Attendants", "collector": "0063", "rarity": "C", "color": "blue", "type": "Creature — Faerie Wizard", "url": "2/4/24447e36-a42f-40a9-ad44-e904b6f9b276" },
+                { "name": "Obyra's Attendants", "collector": "0063", "rarity": "C", "color": "blue", "type": "Creature — Faerie Wizard", "url": "0/0/0001e77a-7fff-49d2-a55c-42f6fdf6db08" },
                 { "name": "Sleight of Hand", "collector": "0067", "rarity": "C", "color": "blue", "type": "Sorcery", "url": "8/0/80dea5c0-ada3-488a-9f2b-f895b92c762f" },
                 { "name": "Spell Stutter", "collector": "0069", "rarity": "C", "color": "blue", "type": "Instant", "url": "2/4/24447e36-a42f-40a9-ad44-e904b6f9b276" },
+                { "name": "Slashy Spellcaster", "collector": "0070", "rarity": "U", "color": "blue", "type": "Creature — Elemental Wizard", "url": "7/3/73ebd7f0-a54d-43a8-a5ee-9d6835308794" },
+                { "name": "Stormkeld Prowler", "collector": "0071", "rarity": "C", "color": "blue", "type": "Creature — Human Rogue", "url": "f/f/ff065dbf-77e3-45a8-bcca-aff9eaeb151f" },
                 { "name": "Succumb to the Cold", "collector": "0072", "rarity": "U", "color": "blue", "type": "Instant", "url": "c/1/c14d9fc0-bfbf-4359-93bf-5e53466965d6" },
                 { "name": "Tenacious Tomeseeker", "collector": "0074", "rarity": "U", "color": "blue", "type": "Creature — Human Knight", "url": "c/4/c40be735-0780-459b-8dd2-a298575beaab" },
 
                 { "name": "Ashiok's Reaper", "collector": "0079", "rarity": "U", "color": "black", "type": "Creature — Nightmare", "url": "6/c/6c4d0db1-74a5-42c0-ac95-e696585d8022" },
                 { "name": "Barrow Naughty", "collector": "0081", "rarity": "C", "color": "black", "type": "Creature — Faerie", "url": "6/7/67da5ad8-4de2-4bd4-8b95-f2657e1fdee5" },
+                { "name": "Conceited Witch", "collector": "0084", "rarity": "C", "color": "black", "type": "Creature — Human Warlock", "url": "f/8/f8a0c0f6-fef9-42c5-934d-a2855c11b440" },
+                { "name": "Ego Drain", "collector": "0086", "rarity": "U", "color": "black", "type": "Sorcery", "url": "8/f/8faf36da-bbad-4d6e-a530-502d47a2dd23" },                
                 { "name": "Faerie Dreamthief", "collector": "0089", "rarity": "U", "color": "black", "type": "Creature — Faerie Warlock", "url": "5/7/57ca2ec5-442d-4909-be28-93c50fbc5f7a" },
                 { "name": "Gumdrop Poison", "collector": "0093", "rarity": "R", "color": "black", "type": "Creature — Human Warlock", "url": "5/c/5cb01d4d-91c2-41c6-981e-b4135a1e1e36" },
                 { "name": "High Fae Negociator", "collector": "0094", "rarity": "U", "color": "black", "type": "Creature — Faerie Warlock", "url": "f/0/f0fc77e7-154d-4433-93b3-1a1dee34791b" },
+                { "name": "Lord Skitter's Butcher", "collector": "0099", "rarity": "U", "color": "black", "type": "Creature — Rat Peasant", "url": "2/1/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9" },
                 { "name": "Not Dead After All", "collector": "0101", "rarity": "C", "color": "black", "type": "Instant", "url": "d/0/d01a2b68-efe6-4027-846d-db7b19d9eef6" },
+                { "name": "Rankle's Prank", "collector": "0102", "rarity": "R", "color": "black", "type": "Sorcery", "url": "e/8/e8a9bdcf-160a-48c9-9750-778c910b805d" },
                 { "name": "Shatter the Oath", "collector": "0106", "rarity": "C", "color": "black", "type": "Sorcery", "url": "c/c/cc79f0f7-0a09-4a74-b2b9-cc1ce608d89f" },
                 { "name": "Spiteful Hexmage", "collector": "0108", "rarity": "R", "color": "black", "type": "Creature — Human Warlock", "url": "4/0/40c797b2-db51-4a39-b80e-44d58cd7a07c" },
                 { "name": "Sugar Rush", "collector": "0110", "rarity": "C", "color": "black", "type": "Instant", "url": "a/6/a638c9ba-45d6-4b50-a8ab-ef580a0a5d8e" },
+                { "name": "Tangled Colony", "collector": "0113", "rarity": "R", "color": "black", "type": "Creature — Rat", "url": "7/7/77111ce8-6469-4bf7-882a-4ded1e5d7cad" },
                 
                 { "name": "Gnawing Crescendo", "collector": "0131", "rarity": "C", "color": "red", "type": "Instant", "url": "2/5/254fc64a-9734-44a6-8869-ab03512f1a99" },
                 { "name": "Grabby Giant", "collector": "0133", "rarity": "C", "color": "red", "type": "Creature — Giant", "url": "f/a/fab7646a-61e8-446b-9dba-ac6e0db82f10" },
-                { "name": "Korvold and the noble Thief", "collector": "0139", "rarity": "U", "color": "red", "type": "Enchantment — Saga", "url": "a/8/a811b2cb-ffc7-4100-ac3e-bc4125842bb2", "foil": true },
-                { "name": "ratcatchcer Trainee", "collector": "0144", "rarity": "C", "color": "red", "type": "Creature — Human Peasant", "url": "7/f/7f4c0959-a107-4d61-9e51-256b2955f6ba" },
+                { "name": "Hearth Elemental", "collector": "0136", "rarity": "U", "color": "red", "type": "Creature — Elemental", "url": "a/8/a8f5f102-cc75-4cee-a117-4bdaaf86c2e9" },
+                { "name": "Korvold and the noble Thief", "collector": "0139", "rarity": "U", "color": "red", "type": "Enchantment — Saga", "url": "a/8/a811b2cb-ffc7-4100-ac3e-bc4125842bb2" },
+                { "name": "Ratcatchcer Trainee", "collector": "0144", "rarity": "C", "color": "red", "type": "Creature — Human Peasant", "url": "7/f/7f4c0959-a107-4d61-9e51-256b2955f6ba" },
                 { "name": "Stoneplitter Bolt", "collector": "0151", "rarity": "U", "color": "red", "type": "Instant", "url": "f/b/fb22f79c-3075-439d-a072-ceaabe35d76f" },
+                { "name": "Torch the Tower", "collector": "0153", "rarity": "C", "color": "red", "type": "Instant", "url": "b/3/b3d6027c-813f-46df-95b4-e2e305a67620" },
                 { "name": "Witch's Mark", "collector": "0158", "rarity": "C", "color": "red", "type": "Sorcery", "url": "0/6/0685afcb-06f6-4d18-b8c2-510764558dc1" },
                 
-                { "name": "Commune with Nature", "collector": "0166", "rarity": "C", "color": "green", "type": "Sorcery", "url": "0/a/0ad345b6-7077-4dd2-b515-c774a3185fe4" },
+                { "name": "Commune with Nature", "collector": "0166", "rarity": "C", "color": "green", "type": "Sorcery", "url": "5/2/5224eec3-2941-4d16-a713-099e34e93eee" },
                 { "name": "Curse of the Werefox", "collector": "0167", "rarity": "C", "color": "green", "type": "Sorcery", "url": "8/9/89148458-1fd6-48ef-a2d9-7b434c9723ec" },
                 { "name": "Feral Encounter", "collector": "0169", "rarity": "R", "color": "green", "type": "Sorcery", "url": "d/e/de21251f-40bf-4f7e-9e85-9033207a788f" },
                 { "name": "Graceful Takedown", "collector": "0171", "rarity": "U", "color": "green", "type": "Sorcery", "url": "8/3/83edf626-ed34-417f-818d-597ecf439167" },
                 { "name": "Hollow Scavenger", "collector": "0174", "rarity": "C", "color": "green", "type": "Creature — Wolf", "url": "0/a/0ad345b6-7077-4dd2-b515-c774a3185fe4" },
                 { "name": "Leaping Ambush", "collector": "0177", "rarity": "C", "color": "green", "type": "Instant", "url": "2/7/2785f716-274c-495c-b4e3-71a72e22f856" },
-                { "name": "Redtooth Vanguard", "collector": "0180", "rarity": "C", "color": "green", "type": "Creature Elf Warrior", "url": "4/e/4e87db5a-1a70-42df-83a2-c0f71fe8533a" },
+                { "name": "Redtooth Vanguard", "collector": "0180", "rarity": "U", "color": "green", "type": "Creature — Elf Warrior", "url": "5/5/55271960-b9bd-4bea-93ca-3321bf30be78" },
+                { "name": "Rootrider Faun", "collector": "0182", "rarity": "C", "color": "green", "type": "Creature — Satyr Scout", "url": "4/e/4e87db5a-1a70-42df-83a2-c0f71fe8533a" },
                 { "name": "Royal Treatment", "collector": "0183", "rarity": "U", "color": "green", "type": "Instant", "url": "b/6/b6516b8f-ecfb-401e-ba8e-bf561aa2be64" },
                 { "name": "Skybeast Tracker", "collector": "0185", "rarity": "C", "color": "green", "type": "Creature — Giant Archer", "url": "a/0/a08da5c6-ebe7-4166-99d5-2aca5b0b529f" },
                 { "name": "Spider Food", "collector": "0186", "rarity": "C", "color": "green", "type": "Sorcery", "url": "b/9/b9fd720b-e9c2-4e82-917e-bab6c544afb0" },
                 { "name": "Territorial Witchstalker", "collector": "0189", "rarity": "C", "color": "green", "type": "Creature — Wolf", "url": "2/5/2515d53d-7a50-4da3-980d-91d91fea2020" },
-                { "name": "Thunderous Debut", "collector": "0190", "rarity": "C", "color": "green", "type": "Sorcery", "url": "d/9/d98f51ec-8eae-434a-ab62-85bdb6586fa2", "foil": true },
+                { "name": "Thunderous Debut", "collector": "0190", "rarity": "C", "color": "green", "type": "Sorcery", "url": "d/9/d98f51ec-8eae-434a-ab62-85bdb6586fa2" },
                 { "name": "Titanic Growth", "collector": "0191", "rarity": "C", "color": "green", "type": "Instant", "url": "4/6/46917de3-5e98-4dd6-8950-fc10338515df" },
+                { "name": "Welcome to Sweettooth", "collector": "0198", "rarity": "U", "color": "green", "type": "Enchantment — Saga", "url": "8/e/8e629a31-2e06-4f95-9628-34670dcf68b9" },
 
+                { "name": "Johann, Apprentice Sorcerer", "collector": "0207", "rarity": "U", "color": "multi", "type": "Legendary Creature — Human Wizard", "url": "b/8/b88a762d-19ed-451d-a3a9-b3e7eea40f67" },
                 { "name": "Neva, Stalked by Nightmares", "collector": "0209", "rarity": "U", "color": "multi", "type": "Legendary Creature — Human Noble", "url": "e/6/e6f925ab-ade7-4da8-a791-185e098d18f2" },
                 { "name": "Sharae of Numbing Depths", "collector": "0213", "rarity": "U", "color": "multi", "type": "Legendary Creature — Merkfolk Wizard", "url": "6/0/600bc36a-3ef0-459c-9a93-94ec45b8c3d9" },
                 { "name": "Syr Armont, the Redeemer", "collector": "0214", "rarity": "U", "color": "multi", "type": "Legendary Creature — Human Knight", "url": "8/5/85050609-baf0-430a-ab33-83a6ea6d4741" },
 
+                { "name": "Frolicking Familiar", "collector": "0226", "rarity": "U", "color": "green", "type": "Creature — Otter Wizard", "url": "6/4/64c432d5-4f5b-44ac-9d61-891e78460d58" },
                 { "name": "Gingerbread Hunter", "collector": "0227", "rarity": "U", "color": "green", "type": "Creature — Giant", "url": "e/7/e77a8fd4-af5f-42b3-a87e-788baf2562dd" },
                 { "name": "Kellan, the Fae-Blooded", "collector": "0230", "rarity": "M", "color": "red", "type": "Legendarie Creature — Human Faerie", "url": "e/c/ec5e2680-8b42-4571-ab45-4936aec51901" },
                 { "name": "Woodland Acolyte", "collector": "0241", "rarity": "U", "color": "white", "type": "Creature — Human Cleric", "url": "b/9/b9f10623-4783-4773-b9c8-a5a2bcfdb5d9" },
@@ -284,14 +304,17 @@ app.controller("Inventory", function($scope){
                 { "name": "Eriette's Tempting Apple", "collector": "0245", "rarity": "U", "color": "colorless", "type": "Legendary Artifact — Food", "url": "5/b/5b61711f-8982-4ff0-86ba-01e0125cd705" },
                 { "name": "Gingerbrute", "collector": "0248", "rarity": "C", "color": "colorless", "type": "Artifact Creature — Food Golem", "url": "0/9/09a4578a-7dc6-4da3-93ee-913b10be5740" },
                 { "name": "Soul-Guide Lantern", "collector": "0251", "rarity": "C", "color": "colorless", "type": "Artifact", "url": "1/3/13571173-29e7-4915-af5f-05f13b463061" },
+                { "name": "Evolving wilds", "collector": "0256", "rarity": "C", "type": "Land", "url": "7/4/74f9c819-719a-461b-8e7e-a26c88e8099b" },
                 
+                { "name": "Plains", "collector": "267", "rarity": "L", "type": "Basic Land — Plains", "url": "e/e/eed1af19-e075-4e6f-9394-d258143e15a4" },
                 { "name": "Plains", "collector": "268", "rarity": "L", "type": "Basic Land — Plains", "url": "4/8/486fbcf9-3a04-47f6-8927-886c2a454499" },
                 { "name": "Island", "collector": "270", "rarity": "L", "type": "Basic Land — Island", "url": "1/a/1a9798d6-34b3-4438-992d-d3616a7c8536" },
                 { "name": "Swamp", "collector": "271", "rarity": "L", "type": "Basic Land — Swamp", "url": "d/0/d0a801ba-ebf7-4b9e-98c2-db50448845b7" },
                 { "name": "Mountain", "collector": "273", "rarity": "L", "type": "Basic Land — Plains", "url": "8/9/8996cd43-5ecd-4a05-a5a9-e49326befaa1" },
 
-                { "name": "Pollen-Shield Hare", "collector": "0293", "rarity": "R", "color": "green", "type": "Creature — Rabbit", "url": "f/2/f2d517ad-6df7-4cf9-982f-763379724d24", "foil": true, "treatment": "showcase" },                
-                { "name": "Restless Vinestalk", "collector": "0307", "rarity": "R", "type": "Land", "url": "a/7/a710643a-b9dd-49bf-a375-d9986b05ed7a", "foil": true }               
+                { "name": "Pollen-Shield Hare", "collector": "0293", "rarity": "R", "color": "green", "type": "Creature — Rabbit", "url": "f/2/f2d517ad-6df7-4cf9-982f-763379724d24" },
+                { "name": "Restless Vinestalk", "collector": "0307", "rarity": "R", "type": "Land", "url": "a/7/a710643a-b9dd-49bf-a375-d9986b05ed7a" },
+                { "name": "Charging Hooligan", "collector": "0318", "rarity": "U", "type": "Land", "url": "f/d/fddc6f47-202d-4764-abc1-ee453a8917c2" }
             ]
         },
         {
@@ -299,12 +322,14 @@ app.controller("Inventory", function($scope){
             "code": "WOT",
             "released": "09.2023",
             "cards": [
-                { "name": "Curiosity", "collector": "0017", "rarity": "U", "color": "blue", "type": "Enchantment — Aura", "url": "9/6/96056dc1-b989-4c87-8ad9-7a9dd99dd7fc" },
-                { "name": "Dark Tutelage", "collector": "0028", "rarity": "U", "color": "black", "type": "Enchantment", "url": "a/2/a2b11a54-b38c-4e22-8b6d-dfc6c037db0e" },
                 { "name": "Grasp of Fate", "collector": "0003", "rarity": "U", "color": "white", "type": "Enchantment", "url": "d/9/d983b297-e341-40fa-ba9b-b9f87eb25057" },
                 { "name": "Griffin Aerie", "collector": "0005", "rarity": "U", "color": "white", "type": "Enchantment", "url": "b/0/b0c1cd62-aa6e-4120-ba70-1f12c8efe389" },
-                { "name": "Hardened Scales", "collector": "0055", "rarity": "R", "color": "green", "type": "Enchantment", "url": "d/2/d2d1bfab-25b4-474b-bdab-ac18215f1920" },
+                { "name": "Curiosity", "collector": "0017", "rarity": "U", "color": "blue", "type": "Enchantment — Aura", "url": "9/6/96056dc1-b989-4c87-8ad9-7a9dd99dd7fc" },
+                { "name": "Hatching Plans", "collector": "0020", "rarity": "U", "color": "blue", "type": "Enchantment — Aura", "url": "e/8/e8ebcbfb-1522-4ff5-b23a-f3ea9e08ad9b" },
+                { "name": "Dark Tutelage", "collector": "0028", "rarity": "U", "color": "black", "type": "Enchantment", "url": "a/2/a2b11a54-b38c-4e22-8b6d-dfc6c037db0e" },
                 { "name": "Leyline of the Void", "collector": "0030", "rarity": "R", "color": "black", "type": "Enchantment", "url": "0/3/034bfd23-8f10-4d98-9500-47d392531c69" },
+                { "name": "Waste Not", "collector": "0038", "rarity": "R", "color": "black", "type": "Enchantment", "url": "f/5/f5dd0247-f6a0-4f1d-ac27-a49a7e022e5b" },
+                { "name": "Hardened Scales", "collector": "0055", "rarity": "R", "color": "green", "type": "Enchantment", "url": "d/2/d2d1bfab-25b4-474b-bdab-ac18215f1920" },
                 { "name": "Nature's Will", "collector": "0057", "rarity": "R", "color": "green", "type": "Enchantment", "url": "c/e/ce7785c2-0b3f-4952-8b2d-71fe73cf64e0" },
                 { "name": "Season of Growth", "collector": "0061", "rarity": "U", "color": "green", "type": "Enchantment", "url": "7/4/742f2d20-0f6b-488e-ae37-54a41522c191" }
             ]
@@ -458,6 +483,54 @@ app.controller("Inventory", function($scope){
                 { "name": "Myriad Landscape", "collector": "0660", "rarity": "U", "type": "Land", "url": "5/e/5efb9b5a-f904-4934-9530-87d752eeae75" },
 
                 { "name": "Kemba, Kha Regent", "collector": "0671", "rarity": "U", "type": "Legendary Creature — Cat Cleric", "url": "5/7/57ae202c-21bf-4142-a8f0-89a13c25f9f9" }
+            ]
+        },
+        {
+            "expansion": "Double Masters 2022",
+            "set": "2X2",
+            "released" : "07.2022",
+            "cards": [
+                { "name": "Anointer of Valor", "collector": "006/331", "rarity": "C", "type": "Creature — Angel", "url": "3/9/393fb9f7-ec03-4831-96d4-a26c89b91830" },
+                { "name": "Ainok Bond-Kin", "collector": "005/331", "rarity": "C", "type": "Creature — Dog soldier", "url": "1/7/1778cf9a-2703-41e9-86d7-ec21af8cf61d" },
+                { "name": "Wingsteed Rider", "collector": "035/331", "rarity": "C", "type": "Creature — Human Knight", "url": "9/e/9e0234e0-6cdd-46b8-91b5-1b8ba7db3014" },
+                { "name": "Aethersnipe", "collector": "037/331", "rarity": "C", "type": "Creature — Elemental", "url": "2/c/2cc9b5ee-4d6d-42ea-8b13-b8a7059781c9" },
+                { "name": "Capture Sphere", "collector": "042/331", "rarity": "C", "type": "Enchantment — Aura", "url": "2/4/24cd21f5-94fd-4609-9e6a-d052aa81fe57" },
+                { "name": "Deranged Assistant", "collector": "045/331", "rarity": "C", "type": "Creature — Human Wizard", "url": "f/2/f2784c1e-1066-411f-96ea-287d60e0c115" },
+                { "name": "Domestication", "collector": "047/331", "rarity": "U", "type": "Enchantment — Aura", "url": "3/b/3b5e940b-e247-4ee3-939b-679e4f8ea771" },
+                { "name": "Kasmina's Transmutation", "collector": "054/331", "rarity": "C", "type": "Enchantment — Aura", "url": "9/3/938ef232-1bf5-4290-abd9-3da653cf2e85" },
+                { "name": "Wash Out", "collector": "067/331", "rarity": "U", "type": "Sorcery", "url": "d/c/dc468f97-08f7-4103-898f-b14fa61b99bc" },
+
+                { "name": "Balustrade Spy", "collector": "068/331", "rarity": "C", "type": "Creature — Vampire Rogue", "url": "d/9/d9b4ce37-f102-4f2b-9651-9d0a9d231d6d" },
+                { "name": "Blood Artist", "collector": "070/331", "rarity": "U", "type": "Creature — Vampire", "url": "6/9/693dd112-d04a-4404-8fce-74f7e5497312" },
+                { "name": "Liliana, the Last Hope", "collector": "081", "rarity": "M", "type": "Legendary Planeswalker — Liliana", "url": "f/7/f7ae5085-0d0d-4d7d-80a3-614315a07de5" },
+                { "name": "Shadowborn Apostle", "collector": "089/331", "rarity": "C", "type": "Creature — Human Cleric", "url": "a/e/ae7ba1de-48f9-423b-867a-22bd3f6c06c2" },
+                { "name": "Skeleton Archer", "collector": "090/331", "rarity": "C", "type": "Creature — Skeleton Archer", "url": "b/d/bd8a04f1-9a7b-41d6-8447-4baa639fe183" },
+
+                { "name": "Hissing Iguanar", "collector": "113/331", "rarity": "C", "type": "Creature — Lizard", "url": "2/2/2268cf4b-de6d-4447-86e8-f8298728a3bd" },
+                { "name": "Rift Bolt", "collector": "122/331", "rarity": "C", "type": "Sorcery", "url": "4/c/4ccd0ada-92b2-48f3-b5ae-96346fc138b6" },
+                { "name": "Staggershock", "collector": "125/331", "rarity": "U", "type": "Instant", "url": "5/6/56976d52-053d-49e9-94c0-f21dc13029ac" },
+
+                { "name": "Ambuscade", "collector": "133/331", "rarity": "C", "type": "Instant", "url": "4/d/4df71162-7e8f-47c5-aff4-59d82d8c674d" },
+                { "name": "Biogenic Upgrade", "collector": "137/331", "rarity": "U", "type": "Sorcery", "url": "6/e/6e8e93a0-33fd-4a1b-82b9-4b4a99fbb75b" },
+                { "name": "Grape with the Past", "collector": "149", "rarity": "C", "type": "Instant", "url": "c/8/c874c79e-18e5-4c33-8580-1269e6b0fc55" },
+                { "name": "Tuskguard Captain", "collector": "163/331", "rarity": "C", "type": "Creature — Human Warrior", "url": "a/4/a4a4eab4-a2e6-4cb0-b32a-700aac59fc40" },
+                { "name": "Webweaver Changeling", "collector": "164/331", "rarity": "C", "type": "Creature — Shapeshifter", "url": "5/7/576807eb-47fa-4f08-8982-1c0b3526fdd2.jpg?1673148227" },
+                { "name": "Call to the Feast", "collector": "190/331", "rarity": "C", "type": "Sorcery", "url": "c/f/cf31f32f-bbca-4e70-93ca-f74c20202939" },
+                { "name": "Mindrack Liege", "collector": "255/331", "rarity": "R", "type": "Creature — Horror", "url": "8/f/8f6dd439-78f6-480b-bdc3-1cb3481bcaf1" },
+                { "name": "Tower Gargoyle", "collector": "288/331", "rarity": "U", "type": "Artifact Creature — Gargoyle", "url": "5/5/55aef108-6aaf-465d-b3f6-5ac1499f44a3" },
+
+                { "name": "Planar Bridge", "collector": "313/331", "rarity": "R", "type": "Legendary Artifact", "url": "3/0/30879758-841c-46a9-a0b6-179ac163f0ac" },
+                { "name": "Traveler's Amulet", "collector": "316/331", "rarity": "C", "type": "Artifact", "url": "e/9/e93621a8-d0f4-436e-9e4f-cccc0447eae8" },
+                
+                { "name": "Boros Garrison", "collector": "319/331", "rarity": "L", "type": "Land", "url": "c/2/c26abe8c-4f06-448d-9e0e-8214592cb885" },
+                { "name": "Cryptic Spires", "collector": "332", "rarity": "L", "type": "Land", "url": "3/0/309a6684-ecb3-491c-899a-3aa15a51130b" },
+                { "name": "Coling Oracle", "collector": "375", "rarity": "C", "type": "Creature — Snake Elf Druid", "url": "0/3/033e6145-cf40-4fa8-98a4-ed8b5e8a66ab" },
+                { "name": "Sensei's Divining Top", "collector": "398", "rarity": "R", "type": "Artifact", "url": "6/9/696792c7-245a-437e-b495-477b177773ba" },
+
+                { "name": "Angel", "collector": "003", "rarity": "T", "type": "Token Creature — Angel", "url": "3/1/31434b32-b741-4a4d-813e-7006fe7ffa3c" },
+                { "name": "Drake", "collector": "010", "rarity": "T", "type": "Token Creature — Drake", "url": "9/5/958a4bb3-7f76-4f8a-8af6-439b09b3ee0f" },
+                { "name": "Angel", "collector": "003", "rarity": "T", "type": "Token Creature — Angel", "url": "3/1/31434b32-b741-4a4d-813e-7006fe7ffa3c" },
+                { "name": "Worm", "collector": "020", "rarity": "T", "type": "Token Creature — Worm", "url": "d/8/d8b71ab8-7f94-4cd9-9a15-0c2291e17b47" }
             ]
         }
     ];
