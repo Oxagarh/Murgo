@@ -772,6 +772,94 @@ app.controller("Inventory", function($scope){
                 { "name": "Command Tower", "collector": "350/361", "rarity": "C", "type": "Land", "url": "8/6/86424491-a372-40c4-bfb5-faa2b2d41d4c" },
                 { "name": "Vault of Champions", "collector": "360/361", "rarity": "R", "type": "Land", "url": "0/e/0e144ae1-500d-4485-b476-5783b14380d9" }
             ]
+        },
+        {
+            "expansion": "Strixhaven",
+            "set": "STX",
+            "released" : "04.2021",
+            "cards": [
+                { "name": "Environmental Sciences", "collector": "001", "rarity": "C", "type": "Sorcery — Lesson", "url": "4/6/46b394fc-a99c-44e7-9226-da0699167541" },
+                { "name": "Expanded Anatomy", "collector": "002", "rarity": "C", "type": "Sorcery — Lesson", "url": "c/5/c5642b9d-0daa-4e6b-ad48-f88dd37d6574", "foil": true },
+                { "name": "Introduction to Prophecy", "collector": "004", "rarity": "C", "type": "Sorcery — Lesson", "url": "7/8/7820923e-bad2-4d6a-92b3-97b9737d2ca9" },
+
+                { "name": "Academic Probation", "collector": "007", "rarity": "R", "type": "Sorcery — Lesson", "url": "0/5/05521edf-f47f-4e7a-aec5-cdc4ae7368c2", "foil": true },
+                { "name": "Combat Professor", "collector": "011", "rarity": "C", "type": "Creature — Bird Cleric", "url": "3/f/3f669ac4-98ed-4e23-91a9-281f8277ab04" },
+                { "name": "Devastating Mastery", "collector": "014", "rarity": "R", "type": "Sorcery", "url": "3/b/3b6be019-29b9-4c81-9899-aefeaf9cc977" },
+                { "name": "Eager First-Year", "collector": "016", "rarity": "C", "type": "Creature — Human Wizard", "url": "7/a/7a83543b-3b6f-4e28-96f9-007b814bcfd6" },
+                { "name": "Elite Spellbinder", "collector": "017", "rarity": "R", "type": "Creature — Human Cleric", "url": "9/d/9d3a7998-ccac-45ad-a4e9-3a2cb057f63b", "foil": true },
+                { "name": "Expel", "collector": "018", "rarity": "C", "type": "Instant", "url": "b/e/be517a58-b7ee-4213-98a5-8c19e1b2def6" },
+                { "name": "Expel", "collector": "018", "rarity": "C", "type": "Instant", "url": "b/e/be517a58-b7ee-4213-98a5-8c19e1b2def6", "foil": true  },
+                { "name": "Leoning Lightscribe", "collector": "020", "rarity": "R", "type": "Creature — Cat Cleric", "url": "2/a/2a465d7b-398c-444b-9eae-331ea2513f6d" },
+                { "name": "Pilgrim of the Ages", "collector": "022", "rarity": "C", "type": "Creature — Spirit", "url": "c/8/c86714f5-e909-413f-8eb6-99dbea4d1897" },
+                { "name": "Semester's End", "collector": "027", "rarity": "R", "type": "Instant", "url": "e/f/ef4743f7-28db-4d72-bfce-09cfbe413514" },
+                { "name": "Stonerise Spirit", "collector": "032", "rarity": "C", "type": "Creature — Spirit Bird", "url": "3/8/388f2e45-570f-4a35-b205-37e1345b5d06" },
+
+                { "name": "Arcane Substraction", "collector": "036", "rarity": "C", "type": "Instant", "url": "6/8/68cdb00c-ea86-4b72-8f62-570820edfa1b", "foil": true },
+                { "name": "Bury in Books", "collector": "039", "rarity": "C", "type": "Instant", "url": "a/c/ac2a2cf5-80cf-4c06-8b04-bc04a5460de5", "foil": true },                
+                { "name": "Mercurial Transformation", "collector": "047", "rarity": "U", "type": "Sorcery — Lesson", "url": "a/d/adcbe115-5482-4e5a-95bb-8ccbb01d3547" },
+                { "name": "Pop Quiz", "collector": "049", "rarity": "C", "type": "Instant", "url": "d/1/d16892d8-9d10-45de-ab79-0e645c4b5588" },                
+                { "name": "Resculpt", "collector": "051", "rarity": "C", "type": "Instant", "url": "1/b/1bfb1fcb-a411-4c1c-b8fc-496242ae3a9b" },
+                { "name": "Serpentine Curve", "collector": "052", "rarity": "C", "type": "Sorcery", "url": "d/6/d651b9e9-d723-4340-a010-d71b2a697e73", "foil": true },
+
+                { "name": "Arrogant Poet", "collector": "063", "rarity": "C", "type": "Creature — Human Warlock", "url": "5/5/556a0816-83c5-41dc-8546-213b21e2cceb" },
+                { "name": "Brackish Trudge", "collector": "065", "rarity": "U", "type": "Creature — Fungus Beast", "url": "9/0/90ba37ee-159f-421f-8d37-a7b5f1b562f0" },
+                { "name": "Hunt for Specimens", "collector": "073", "rarity": "C", "type": "Sorcery", "url": "8/f/8ff0f47f-75cb-42b0-ba4d-78522cad9861", "foil": true },
+                { "name": "Unwilling Ingredient", "collector": "090", "rarity": "C", "type": "Creature — Frog", "url": "3/0/30448144-639a-43c7-a408-bd6ed543c231", "foil": true },
+                
+                { "name": "Enthusiastic Study", "collector": "099", "rarity": "C", "type": "Instant", "url": "5/4/543c64ff-2c51-4a63-a940-dc8645717c85" },
+                { "name": "First Day of Class", "collector": "102", "rarity": "C", "type": "Instant", "url": "0/9/091eb13d-9318-4b12-9f94-6276b11981d1" },
+                { "name": "Fuming Effigy", "collector": "103", "rarity": "C", "type": "Creature — Spirit", "url": "7/c/7ce76a38-fc5f-4e29-ba24-4a877179a62c", "foil": true },
+                { "name": "Grinning Ignus", "collector": "104", "rarity": "U", "type": "Creature — Elemental", "url": "c/f/cfa04897-6438-45e5-a10b-2e8afaf2b9eb" },
+                { "name": "Mascot Interception", "collector": "110", "rarity": "U", "type": "Sorcery", "url": "8/f/8f0ea66f-1756-4b0d-8ccc-3b3a7370b531", "foil": true },
+                { "name": "Pigment Storm", "collector": "111", "rarity": "C", "type": "Sorcery", "url": "d/2/d285a7a1-bb7e-4a78-a49f-c2add62b829a" },
+                { "name": "Pillardrop Warden", "collector": "112", "rarity": "C", "type": "Creature — Spirit Dwarf", "url": "7/d/7d509f73-cd62-4116-9652-0ed801ed8b36" },
+                { "name": "Start from Scratch", "collector": "114", "rarity": "U", "type": "Sorcery — Lesson", "url": "5/5/55c99486-ae64-4293-81fb-a4b02e8fcae6" },
+                { "name": "Storm-Kiln Artist", "collector": "115", "rarity": "U", "type": "Creature — Dwarf Shaman", "url": "f/a/fa96b8dc-233a-4884-ab84-235cbc7df0b6" },
+                { "name": "Storm-Kiln Artist", "collector": "115", "rarity": "U", "type": "Creature — Dwarf Shaman", "url": "f/a/fa96b8dc-233a-4884-ab84-235cbc7df0b6", "foil": true },
+                { "name": "Twinscroll Shaman", "collector": "118", "rarity": "C", "type": "Creature — Dwarf Shaman", "url": "8/7/87193af5-4b6b-48d0-9b75-8171bb1d6e53" },
+
+                { "name": "Bayou Groff", "collector": "121", "rarity": "C", "type": "Creature — Plant Dog", "url": "4/a/4a82b032-b1ba-456c-abab-c0f7430b0587" },
+                { "name": "Professor of Zoomancy", "collector": "140", "rarity": "C", "type": "Creature — Bear Druid", "url": "8/3/8347f2e8-ef70-4879-860a-12f7cab25902", "foil": true },
+                { "name": "Verdant Mastery", "collector": "146", "rarity": "R", "type": "Sorcery", "url": "1/9/197455e5-7929-47b8-ad00-8d3918949eb7" },
+                { "name": "Verdant Mastery", "collector": "146", "rarity": "R", "type": "Sorcery", "url": "1/9/197455e5-7929-47b8-ad00-8d3918949eb7", "foil": true },
+
+                { "name": "Valentine, Dean of the Vein", "collector": "161", "rarity": "R", "type": "Legendary Creature — Vampire Warlock", "url": "6/5/65008352-bc7e-40b2-a832-b46813e5dc4c" },
+
+                { "name": "Biomathematician", "collector": "164", "rarity": "C", "type": "Creature — Human Wizard", "url": "b/4/b41a35ef-dae1-4534-a12a-d3951b285273", "foil": true },
+                { "name": "Closing Statement", "collector": "169", "rarity": "U", "type": "Instant", "url": "7/8/785e6d07-fe40-4723-b963-02da0a0987c7" },
+                { "name": "Creative Outburst", "collector": "171", "rarity": "U", "type": "Instant", "url": "e/a/eab58d87-bf01-45dc-8958-e2b3375f914b" },
+                { "name": "Deadly Brew", "collector": "176", "rarity": "U", "type": "Sorcery", "url": "8/7/87d33e48-90fc-4aac-b09a-68050bc053b5" },
+                { "name": "Elemental Masterpiece", "collector": "182", "rarity": "C", "type": "Sorcery", "url": "4/3/4331a7a6-e98e-4517-b0f9-ace379426a94" },
+                { "name": "Elemental Summoning", "collector": "183", "rarity": "C", "type": "Sorcery — Lesson", "url": "e/a/ea51991c-1589-4c62-965b-5ae8d233520b" },
+                { "name": "Eureka Moment", "collector": "184", "rarity": "C", "type": "Instant", "url": "e/4/e400c9b7-c789-49dd-9f72-b9d1df03fcca", "foil": true },
+                { "name": "Expressive Iteration", "collector": "186", "rarity": "U", "type": "Sorcery", "url": "3/1/31b770cc-09e7-4c0b-b2a4-462ab4f7200d" },
+                { "name": "Humiliate", "collector": "193", "rarity": "U", "type": "Sorcery", "url": "d/c/dc3ae8cb-fbdb-45a8-83c2-cbf4aff01f90" },
+                { "name": "Inkling Summoning", "collector": "195", "rarity": "C", "type": "Sorcery — Lesson", "url": "0/4/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0" },
+                { "name": "Lorehold Ppledgemage", "collector": "201", "rarity": "C", "type": "Creature — Kor Shaman", "url": "7/9/79b88b38-6b5a-4a89-80ca-add79c11e8b9" },
+                { "name": "Make Your Mark", "collector": "204", "rarity": "C", "type": "Instant", "url": "7/e/7e937830-3804-44e8-b9d0-3e5f5cf39eab" },
+                { "name": "Owlin Shieldmage", "collector": "210", "rarity": "C", "type": "Creature — Bird Warlock", "url": "d/3/d3350367-42bd-44af-be13-ad31c002f8ac" },
+                { "name": "Prismari Apprentice", "collector": "213", "rarity": "U", "type": "Creature — Human Shaman", "url": "d/c/dca3aa59-c8ac-4930-abf7-0a74d657122a" },
+                { "name": "Relic Sloth", "collector": "223", "rarity": "C", "type": "Creature — Beast", "url": "c/1/c1cb483f-c567-4cfd-9fe8-1503e7b40542" },
+                { "name": "Rip Apart", "collector": "225", "rarity": "U", "type": "Sorcery", "url": "b/3/b3b5b510-fd5c-415d-98b0-386e7508f7af" },
+                { "name": "Rootha, Mercurial Artist", "collector": "227", "rarity": "U", "type": "Legendary Creature — Orc Shaman", "url": "a/c/acb8f24d-8d1d-48aa-a534-238e969a474c", "foil": true },
+                { "name": "Silverquill Pledgemage", "collector": "233", "rarity": "C", "type": "Creature — Vampire Cleric", "url": "a/3/a3f64ad2-4041-421d-baa2-206cedcecf0e" },
+                { "name": "Silverquill Pledgemage", "collector": "233", "rarity": "C", "type": "Creature — Vampire Cleric", "url": "a/3/a3f64ad2-4041-421d-baa2-206cedcecf0e", "foil": true },
+                { "name": "Spirit Summoning", "collector": "236", "rarity": "C", "type": "Sorcery — Lesson", "url": "7/4/74be6236-4095-419c-9927-fbd874df21f8", "foil": true },
+                { "name": "Spiteful Squad", "collector": "237", "rarity": "C", "type": "Creature — Human Warlock", "url": "b/e/be88355e-c986-4b69-93b4-0abf04916e86" },
+                { "name": "Stonebound Mentor", "collector": "239", "rarity": "C", "type": "Creature — Human Advisor", "url": "9/c/9c64e954-adfc-40a2-a3b2-85f1b4626976" },
+                { "name": "Teach by Example", "collector": "241", "rarity": "C", "type": "Instant", "url": "a/a/aa7fbb9b-50a8-4d18-a667-fe965468ca16" },
+                { "name": "Thrilling Discovery", "collector": "243", "rarity": "C", "type": "Sorcery", "url": "b/a/bac1f45e-1884-490e-a94f-f7d312f0e229" },
+                { "name": "Whiterbloom Apprentice", "collector": "247", "rarity": "U", "type": "Creature — Human Druid", "url": "7/f/7f80a11b-188b-464c-b00d-c9d1cfb8ddee" },
+                { "name": "Zimone, Quandrix Prodigy", "collector": "250", "rarity": "U", "type": "Legendary Creature — Human Wizard", "url": "0/c/0ca14c17-dc72-4f68-92f2-14a6c4019f4e", "foil": true },
+
+                { "name": "Spell Satchel", "collector": "258", "rarity": "U", "type": "Artifact", "url": "7/d/7de826a0-6e68-4d40-a51c-8d6e7a4148d1" },
+                { "name": "Team Pennant", "collector": "260", "rarity": "U", "type": "Artifact — Equipment", "url": "b/e/be294c4e-712b-459c-a36c-e26ed5c27edb" },
+                { "name": "Zephyr Boots", "collector": "261", "rarity": "U", "type": "Artifact — Equipment", "url": "4/d/4d0566fd-3775-48f1-ba22-6e659558c3d3" },
+                
+                { "name": "Sparring Regimen", "collector": "293", "rarity": "R", "type": "Enchantment", "url": "5/8/584a3d18-0360-48aa-87d2-51e9078b00f5" },
+                { "name": "Lorehold Campus", "collector": "268", "rarity": "C", "type": "Land", "url": "d/3/d35461cf-becf-4399-8329-64b4496b7fc2" },
+                { "name": "Silvequill Campus", "collector": "273", "rarity": "C", "type": "Land", "url": "4/2/42583850-ba5c-4a71-8717-406b5c6d048f" }
+            ]
         }
     ];
 });
