@@ -291,6 +291,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Ulamog Crusher", "collector": "0006", "rarity": "C", "color": "colorless", "type": "Creature — Eldrazi", "url": "6/9/699c0f6f-b26b-4741-8140-8a6030cad127" },
                 
                 { "name": "Ainok Bond-Kin", "collector": "0007", "rarity": "C", "color": "white", "type": "Creature — Dog Soldier", "url": "6/9/6956c523-507c-4256-88b8-58a8a108c79f" },
+                { "name": "Alharu, Solemn Ritualist", "collector": "0008", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Monk", "url": "3/f/3fdf5020-ea97-4f95-a096-cb5688dad2e2" },
                 { "name": "All that Glitters", "collector": "0009", "rarity": "C", "color": "white", "type": "Enchantment — Aura", "url": "5/f/5fc0b82a-f943-4330-b9e7-bb4527354bfd" },
                 { "name": "Alms Collector", "collector": "0010", "rarity": "R", "color": "white", "type": "Creature — Cat Cleric", "url": "3/6/367ac07a-a30f-4ebf-8877-27cd9ebe2f71" },
                 { "name": "Ancestral Blade", "collector": "0012", "rarity": "C", "color": "white", "type": "Artifact — Equipment", "url": "2/4/24705dee-027c-42a2-8505-66c0a34a4a58" },
@@ -971,6 +972,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Tormod, the Desecrator", "collector": "155/361", "rarity": "U", "type": "Legendary Creature — Zombie Wizard", "url": "8/9/89903d5e-241f-477e-a336-2abe0232c04a" },
                 { "name": "Viscera Seer", "collector": "158/361", "rarity": "C", "type": "Creature — Vampire Wizard", "url": "d/4/d49203dd-89b6-4e91-b3ff-5f9f5ce981f8" },
                 
+                { "name": "Aurora Phoenix", "collector": "161/361", "rarity": "R", "type": "Creature — Phoenix", "url": "3/8/3841b5f9-f9a3-433d-bcdc-f2aa5c783b6d" },
                 { "name": "Boarding Party", "collector": "163/361", "rarity": "C", "type": "Creature — Human Pirate", "url": "1/8/186adacf-434b-475b-9b85-749615ae002b" },
                 { "name": "Burning Anger", "collector": "166/361", "rarity": "U", "type": "Enchantment — Aura", "url": "3/d/3d5a8f92-4418-4993-9f56-0b2f5069597c" },
                 { "name": "Crimson Fleet Commodore", "collector": "171/361", "rarity": "C", "type": "Creature — Ogre Pirate", "url": "c/9/c90fdccf-30a6-40ee-9b35-83a6ee5c0681" },
@@ -1009,7 +1011,6 @@ app.controller("Inventory", function($scope){
                 { "name": "Vow of Wildness", "collector": "262/361", "rarity": "U", "type": "Enchantment — Aura", "url": "7/6/764fa7f1-b92b-42cc-983e-e0b5457369a7" },
 
                 { "name": "Abomination of Llanowar", "collector": "265/361", "rarity": "C", "type": "Legendary Creature — Elf Horror", "url": "5/6/567dbc64-4d59-4bab-a551-08fc66c085fa" },
-                { "name": "Juri, Master of the Revue", "collector": "282/361", "rarity": "U", "type": "Legendary Creature — Human Shaman", "url": "a/e/aec6b2b7-625a-451d-bc0b-4456f5bf2719" },
                 { "name": "Tuya Bearclaw", "collector": "292/361", "rarity": "U", "type": "Legendary Creature — Human Warrior", "url": "8/c/8cf6b42f-8eb7-4b40-a4e6-8775ee208f7e" },
 
                 { "name": "Amorphous Axe", "collector": "295/361", "rarity": "C", "type": "Artifact — Equipment", "url": "2/d/2de53345-5809-4704-bd60-682b0c3c3999" },
