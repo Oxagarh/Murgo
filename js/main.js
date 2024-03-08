@@ -287,8 +287,8 @@ app.controller("Inventory", function($scope){
             "released": "08.2023",
             "cards": [
                 { "name": "Morophon, the Boundless", "collector": "0003", "rarity": "M", "color": "colorless", "type": "Legendary Creature — Shapeshifter", "url": "8/4/84238335-e08c-421c-b9b9-70a679ff2967" },
-                { "name": "Pathrazer of Ulamog", "collector": "0004", "rarity": "U", "color": "colorless", "type": "Creature — Eldrazi", "url": "c/9/c9b1d4d8-7df9-41e0-b2d9-dbca9c9f6994" },
-                { "name": "Ulamog Crusher", "collector": "0006", "rarity": "C", "color": "colorless", "type": "Creature — Eldrazi", "url": "6/9/699c0f6f-b26b-4741-8140-8a6030cad127" },
+                //{ "name": "Pathrazer of Ulamog", "collector": "0004", "rarity": "U", "color": "colorless", "type": "Creature — Eldrazi", "url": "c/9/c9b1d4d8-7df9-41e0-b2d9-dbca9c9f6994" },
+                //{ "name": "Ulamog Crusher", "collector": "0006", "rarity": "C", "color": "colorless", "type": "Creature — Eldrazi", "url": "6/9/699c0f6f-b26b-4741-8140-8a6030cad127" },
                 
                 { "name": "Ainok Bond-Kin", "collector": "0007", "rarity": "C", "color": "white", "type": "Creature — Dog Soldier", "url": "6/9/6956c523-507c-4256-88b8-58a8a108c79f" },
                 { "name": "Alharu, Solemn Ritualist", "collector": "0008", "rarity": "U", "color": "white", "type": "Legendary Creature — Human Monk", "url": "3/f/3fdf5020-ea97-4f95-a096-cb5688dad2e2" },
@@ -341,7 +341,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Stormsurge Kraken", "collector": "0122", "rarity": "R", "color": "blue", "type": "Creature — Kraken", "url": "5/2/525d742f-dadb-4a59-b70d-3b328bf99cca" },
                 { "name": "Torrential Gearhulk", "collector": "0128", "rarity": "R", "color": "blue", "type": "Artifact Creature — Construct", "url": "9/2/92872fea-2fb4-4154-815e-cad9d966e60f" },
                 
-                { "name": "Bastion of Remembrance", "collector": "0138", "rarity": "U", "color": "black", "type": "Enchantment", "url": "2/8/28aa32ff-3ced-405c-8508-7dd35cd20f02" },
+                //{ "name": "Bastion of Remembrance", "collector": "0138", "rarity": "U", "color": "black", "type": "Enchantment", "url": "2/8/28aa32ff-3ced-405c-8508-7dd35cd20f02" },
                 { "name": "Cabal Patriarch", "collector": "0140", "rarity": "U", "color": "black", "type": "Legendary Creature — Human Wizard", "url": "9/e/9e9a1276-5ad5-44ee-83e5-2d1ab728946e" },
                 { "name": "Carrier Thrall", "collector": "0142", "rarity": "C", "color": "black", "type": "Creature — Vampire", "url": "7/7/772e551c-0b47-4ccb-8893-f192de92908e" },
                 { "name": "Cutain's Call", "collector": "0146", "rarity": "R", "color": "black", "type": "Instant", "url": "3/7/37d3f1b5-b41c-4181-8c14-d0f2f4ba0710" },
@@ -491,7 +491,7 @@ app.controller("Inventory", function($scope){
             "set": "2X2",
             "released" : "07.2022",
             "cards": [
-                { "name": "Kozilek, Butcher of Truth", "collector": "002/331", "rarity": "M", "type": "Legendary Creature — Eldrazi", "url": "d/2/d27cf7b7-7982-46bd-a559-7789c0e74bae" },
+                //{ "name": "Kozilek, Butcher of Truth", "collector": "002/331", "rarity": "M", "type": "Legendary Creature — Eldrazi", "url": "d/2/d27cf7b7-7982-46bd-a559-7789c0e74bae" },
                 { "name": "Anointer of Valor", "collector": "006/331", "rarity": "C", "type": "Creature — Angel", "url": "3/9/393fb9f7-ec03-4831-96d4-a26c89b91830" },
                 { "name": "Ainok Bond-Kin", "collector": "005/331", "rarity": "C", "type": "Creature — Dog soldier", "url": "1/7/1778cf9a-2703-41e9-86d7-ec21af8cf61d" },
                 { "name": "Flickerwisp", "collector": "011/331", "rarity": "U", "type": "Creature — Elemental", "url": "f/6/f6cccf30-2025-49bb-9b1e-240bbef03f27" },
@@ -1035,8 +1035,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Universal Solvent", "collector": "347/361", "rarity": "C", "type": "Artifact", "url": "b/b/bbe257c5-d2f8-4a4f-bf74-f6dc4b6861e4" },
                 
                 { "name": "Command Tower", "collector": "350/361", "rarity": "C", "type": "Land", "url": "8/6/86424491-a372-40c4-bfb5-faa2b2d41d4c" },
-                { "name": "Opal Place", "collector": "352", "rarity": "C", "type": "Land", "url": "4/7/47d68a79-00b5-453f-9fdc-92d9dbfb90b2" },
-                { "name": "Vault of Champions", "collector": "360/361", "rarity": "R", "type": "Land", "url": "0/e/0e144ae1-500d-4485-b476-5783b14380d9" }
+                { "name": "Opal Place", "collector": "352", "rarity": "C", "type": "Land", "url": "4/7/47d68a79-00b5-453f-9fdc-92d9dbfb90b2" }
             ]
         }
     ];
