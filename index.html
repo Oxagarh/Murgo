@@ -17,7 +17,7 @@
     <body class="container" ng-app="Murgo" ng-controller="Inventory">
         <div class="row g-0" ng-repeat="library in binder">
             <h2 class="p-3" style="background:black;color:white;">{{library.expansion}}</h2>
-            <div class="col-6 col-lg-3" ng-repeat="card in library.cards">
+            <div ng-class="{'mr-75': card.rarity=='F'}" class="col-6 col-lg-3" ng-repeat="card in library.cards">
                 <img ng-src="https://cards.scryfall.io/large/front/{{card.url}}.jpg" alt={{card.type}} class="{{card.available}} p-2 w-100" loading="lazy">
             </div>
         </div>
