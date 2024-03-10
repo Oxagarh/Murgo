@@ -15,9 +15,14 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     </head>
     <body class="container" ng-app="Murgo" ng-controller="Inventory">
-        <div class="row g-0" ng-repeat="library in binder">
-            <h2 class="p-3" style="background:black;color:white;">{{library.expansion}}</h2>
-            <div ng-class="{'mr-75': card.rarity=='F'}" class="col-6 col-lg-3" ng-repeat="card in library.cards">
+        <div class="row g-0">
+            <div class="col-12 col-lg-6">
+                <input type="text" placeholder="buscar" ng-model="searchCard" class="my-4 w-100">
+            </div>
+        </div>
+        <div class="row g-0" placeholder="buscar" ng-repeat="library in binder">
+            <h2 class="p-3" style="background-image: linear-gradient(90deg, #000, transparent 125%);color:white;width:100;" ng-show="filteredList.length > 0">{{library.expansion}}</h2>
+            <div ng-class="{'mr-75': library.code=='J22' && card.rarity=='F'}" class="col-6 col-lg-3" ng-repeat="card in library.cards  | filter:{name:searchCard} as filteredList">
                 <img ng-src="https://cards.scryfall.io/large/front/{{card.url}}.jpg" alt={{card.type}} class="{{card.available}} p-2 w-100" loading="lazy">
             </div>
         </div>
