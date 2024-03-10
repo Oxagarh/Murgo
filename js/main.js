@@ -222,6 +222,7 @@ app.controller("Inventory", function($scope){
             "code": "LCI",
             "released": "11.2023",
             "cards": [
+                { "name": "Acrobatic Leap", "collector": "0002", "rarity": "C", "color": "white", "type": "Instant", "url": "4/7/47f82d84-03ad-42dd-80ce-f0ac5e353e46" },
                 { "name": "Attentive Sunscribe", "collector": "004", "rarity": "C", "color": "white", "type": "Artifact Creature — Gnome", "url": "a/d/ad1a0159-7f00-429c-9318-b028b1e03ba8" },
                 { "name": "Family Reunion", "collector": "0013", "rarity": "C", "color": "white", "type": "Instant", "url": "5/c/5c2cfbdc-8d40-4abb-afca-6c6d8e36185b" },
                 { "name": "Glorifier of Suffering", "collector": "0015", "rarity": "C", "color": "white", "type": "Creature — Vampire Soldier", "url": "7/5/7580ad36-7362-4dee-9511-d119173b70e8" },
@@ -234,7 +235,9 @@ app.controller("Inventory", function($scope){
                 { "name": "Thousand Moons Infantry", "collector": "0038", "rarity": "C", "color": "white", "type": "Creature — Human Soldier", "url": "c/1/c1974a8c-3328-4ff5-9a00-cb79ebb8ccf6" },
                 
                 { "name": "Ancestral Reminiscense", "collector": "0045", "rarity": "C", "color": "blue", "type": "Sorcery", "url": "6/2/625690d3-7131-45de-adea-9c927241e661" },
+                { "name": "Chart a Course", "collector": "0048", "rarity": "C", "color": "blue", "type": "Sorcery", "url": "2/3/233beaac-37a4-4824-8f31-438b6bfe794b" },
                 { "name": "Cogwork Wrestler", "collector": "0049", "rarity": "C", "color": "blue", "type": "Artifact Creature — Gnome", "url": "a/9/a9d329ad-6b19-4aa7-a53f-38c7b76c4c96" },
+                { "name": "The Everflowing Well", "collector": "0056", "rarity": "R", "color": "blue", "type": "Legendary Artifact", "url": "b/f/bf573fb7-fa6c-4df7-8e5e-1e071585361e" },
                 { "name": "Hurl into History", "collector": "0059", "rarity": "U", "color": "blue", "type": "Instant", "url": "5/9/5946463a-2240-4376-b6f5-fd6e3a9cc51c" },
                 { "name": "Inverted Iceberg", "collector": "0060", "rarity": "C", "color": "blue", "type": "Artifact", "url": "a/c/ac5e9a53-cc4f-4ced-8088-5a73d619eae3",
                 "back": { "name": "Iceberg Titan", "type": "Artifact Creature — Golem" } },
@@ -258,9 +261,11 @@ app.controller("Inventory", function($scope){
                 { "name": "Rampaging Spiketail", "collector": "0116", "rarity": "C", "color": "black", "type": "Creature — Dinosaur", "url": "a/a/aad0adcb-80e5-4c6d-bcdd-9e5d18c017b3" },
                 { "name": "Skullcap Snail", "collector": "0119", "rarity": "C", "color": "black", "type": "Creature — Fungus Snail", "url": "0/d/0d96d019-5d80-468a-b891-e3e99346372a" },
                 { "name": "Soulcoil Viper", "collector": "0120", "rarity": "U", "color": "black", "type": "Creature — Snake", "url": "1/1/1125fdf2-2dbb-49a6-b76f-8cd6c3d6fab4" },
+                { "name": "Syanpse Necromage", "collector": "0125", "rarity": "U", "color": "black", "type": "Creature — Fungus Wizard", "url": "e/f/efeb22a4-37bf-487a-9cf4-74de4cbbc0a3" },
                 //{ "name": "Tithing Blade", "collector": "0128", "rarity": "C", "color": "black", "type": "Artifact", "url": "d/b/dbaa9a2d-e9fd-4746-a26c-f99ae731f024" },
                 { "name": "Vito's Inquisitor", "collector": "0130", "rarity": "C", "color": "black", "type": "Creature — Vampire Knight", "url": "9/0/9030048a-b866-4a89-8d4a-aa55411463e4" },
 
+                { "name": "Brazen Blademaster", "collector": "0136", "rarity": "C", "color": "red", "type": "Creature — Orc Pirate", "url": "8/e/8e9e0c66-f64a-428c-be13-a52691833df1" },
                 { "name": "Burning Sun Cavalry", "collector": "0138", "rarity": "C", "color": "red", "type": "Creature — Human Knight", "url": "0/c/0c491ac0-4752-47a7-967e-456b6e4245de" },
                 { "name": "Calamitous Cave In", "collector": "0139", "rarity": "U", "color": "red", "type": "Sorcery", "url": "8/3/8341ddd9-aac1-4773-b8ce-51e35f696263" },
                 { "name": "Child of Volcano", "collector": "0140", "rarity": "C", "color": "red", "type": "Creature — Elemental", "url": "e/9/e964f026-9cbf-4fa2-acdc-60d19b88f183" },
@@ -268,8 +273,9 @@ app.controller("Inventory", function($scope){
                 { "name": "Dowsing Device", "collector": "0146", "rarity": "U", "color": "red", "type": "Artifact", "url": "3/d/3d715e9f-223d-462e-8ce3-eebbaf1cd021" },
                 { "name": "Goblin Tomb Raider", "collector": "0151", "rarity": "C", "color": "red", "type": "Creature — Goblin Pirate", "url": "0/1/018160fe-f602-43f5-8495-241a08eaa69c" },
                 { "name": "Hotfoot Gnome", "collector": "0154", "rarity": "C", "color": "red", "type": "Artifact Creature — Gnome", "url": "8/7/87468b6b-6f78-42e4-ab0d-6730aeecdc3f" },
+                { "name": "Idol of the Deep King", "collector": "0155", "rarity": "C", "color": "red", "type": "Artifact", "url": "d/1/d1d8d8ef-c8b2-4e7c-89e4-b381dff20584" },
                 { "name": "Rampaging Ceratops", "collector": "0162", "rarity": "U", "color": "red", "type": "Creature — Dinosaur", "url": "8/b/8bab3f8f-cb06-466d-a35d-0b5e1a2b524c" },
-                { "name": "Scytheclaw Raptor", "collector": "0323", "rarity": "U", "color": "red", "type": "Creature — Dinosaur", "url": "9/4/9436cf62-56d6-4662-9982-72e9be80d25c" },
+                { "name": "Scytheclaw Raptor", "collector": "0165", "rarity": "U", "color": "red", "type": "Creature — Dinosaur", "url": "9/4/9436cf62-56d6-4662-9982-72e9be80d25c" },
                 { "name": "Triumphant Chomp", "collector": "0170", "rarity": "U", "color": "red", "type": "Sorcery", "url": "0/6/06b28139-efa7-4818-a012-cf8150692b43" },
                 
                 { "name": "Armored Kincaller", "collector": "0174", "rarity": "C", "color": "green", "type": "Creature — Dinosaur", "url": "b/7/b76a46a1-a63e-460a-98c5-699dd1c827aa" },
@@ -292,6 +298,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Spelunking", "collector": "0213", "rarity": "U", "color": "green", "type": "Enchantment", "url": "d/3/d3be4257-2316-4a2e-b347-f71c0368a947" },
                 { "name": "Staggering Size", "collector": "0214", "rarity": "C", "color": "green", "type": "Instant", "url": "e/3/e34c4946-6c21-4ae1-9595-35933d38da52" },
                 { "name": "Tendryl of the Mycotyrant", "collector": "0215", "rarity": "U", "color": "green", "type": "Creature — Fungus Wizard", "url": "a/f/afa464fe-978f-43de-ac35-79be4b12f0d9" },
+                { "name": "Walk With the Ancestors", "collector": "0218", "rarity": "C", "color": "green", "type": "Sorcery", "url": "7/1/71a6f85b-5ef8-4526-9c86-7cb71508b4c0" },
                 
                 { "name": "Caparocti Sunborn", "collector": "0226", "rarity": "U", "color": "multi", "type": "Legendary Creature — Human Soldier", "url": "8/e/8ea82964-fd9c-48e3-962f-94954476b31f" },
                 { "name": "Itzquinth, Firstborn of Gishath", "collector": "0230", "rarity": "U", "color": "multi", "type": "Legendary Creature — Dinosaur", "url": "7/1/7112c366-b36a-4bc8-aa64-6bad16bebc39" },
@@ -332,6 +339,7 @@ app.controller("Inventory", function($scope){
             "code": "WOE",
             "released": "09.2023",
             "cards": [
+
                 { "name": "Armory Mice", "collector": "0003", "rarity": "C", "color": "white", "type": "Creature — Mouse", "url": "4/b/4b041949-6fb6-40a6-9329-f209be537219" },
                 { "name": "Besotted Knight", "collector": "0004", "rarity": "C", "color": "white", "type": "Creature — Human Knight", "url": "5/9/5980a930-c7f8-45e1-a18a-87734d9ed09e" },
                 { "name": "Charmed Clothier", "collector": "0006", "rarity": "C", "color": "white", "type": "Creature — Faerie Advisor", "url": "9/9/994f4473-dfc9-45cd-8528-945db3aa6a9a" },
@@ -1202,6 +1210,26 @@ app.controller("Inventory", function($scope){
                 
                 { "name": "Command Tower", "collector": "350/361", "rarity": "C", "type": "Land", "url": "8/6/86424491-a372-40c4-bfb5-faa2b2d41d4c" },
                 { "name": "Opal Place", "collector": "352", "rarity": "C", "type": "Land", "url": "4/7/47d68a79-00b5-453f-9fdc-92d9dbfb90b2" }
+            ]
+        },
+        {
+            "expansion": "...",
+            "set": "...",
+            "released" : "00/00",
+            "cards": [
+                { "name": "Kraul del látigo", "url": "5/d/5daad7f9-d379-47df-a85a-20f2c372094c" },
+                { "name": "Illicit Masquerade", "url": "1/1/11a05863-9f7c-4543-92f3-8f007d8ab49b" },
+                { "name": "Bestial Menace", "url": "1/4/14003109-ec2c-40ad-b005-67218ec75cbd" },
+                { "name": "Siege Rhino", "url": "9/0/9011126a-20bd-4c86-a63b-1691f79ac247" },
+                { "name": "Defiant Bloodlord", "url": "4/e/4e7ae077-52c7-49a1-a61a-61e50b494616" },
+                { "name": "Warm Welcome", "url": "b/a/bad9e58e-c9a3-4a0d-9a59-71c20a3275b6" },
+                { "name": "Battlemage's Braces", "url": "9/1/91df9e44-c124-42cc-b051-cbe58af14cf5" },
+                { "name": "Revival Experiment", "url": "c/d/cd50007c-5883-4f0c-80c3-41f13f463908" },
+                { "name": "Spell Swindle", "url": "0/1/01feef77-ff30-4f77-892f-6bdae3f0d35c" },
+                { "name": "Forest", "url": "4/f/4fd257a5-439d-4ef8-9cc9-9741e99a04e3" },
+                { "name": "Hellkite Punisher", "url": "7/b/7bf663d3-850b-4a24-8e4b-08311adf4ed0" },
+                { "name": "Chandra, Heart of Fire", "url": "a/4/a4c3ca8c-c77c-43b8-84ad-796313ecc813" },
+                { "name": "Tura Kennerüd, Skynight", "url": "d/7/d710ba7b-b0c9-4372-8f6e-1938bd114ac4" }
             ]
         }
     ];
