@@ -779,7 +779,7 @@ app.controller("Inventory", function($scope){
                 { "name": "Living Lightning", "collector": "118/331", "rarity": "C", "type": "Creature — Elemental Shaman", "url": "f/2/f29ba16f-c8fb-42fe-aabf-87089cb214a7" },
                 { "name": "Monastery Swiftspear", "collector": "119/331", "rarity": "C", "type": "Creature — Human Monk", "url": "e/8/e8b9d59d-bac9-4092-901e-2b861c186868" },
                 { "name": "Pirate's Pillage", "collector": "120/331", "rarity": "C", "type": "Sorcery", "url": "1/0/1097e866-9d24-43b6-bafb-b6da05b47a30" },
-                { "name": "Purphoros's Emissary", "collector": "121/331", "rarity": "C", "type": "Enchantment Creature — Ox", "url": "" },
+                { "name": "Purphoros's Emissary", "collector": "121/331", "rarity": "C", "type": "Enchantment Creature — Ox", "url": "3/d/3dd318d3-3d84-4f3f-a48f-6a242474a4a2" },
                 { "name": "Rift Bolt", "collector": "122/331", "rarity": "C", "type": "Sorcery", "url": "4/c/4ccd0ada-92b2-48f3-b5ae-96346fc138b6" },
                 { "name": "Staggershock", "collector": "125/331", "rarity": "U", "type": "Instant", "url": "5/6/56976d52-053d-49e9-94c0-f21dc13029ac" },
 
